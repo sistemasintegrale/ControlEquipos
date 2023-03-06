@@ -3,6 +3,7 @@ using SGE.ControlEquipos.DataAcces;
 using SGE.ControlEquipos.Entities;
 using SGE.ControlEquipos.helper;
 using System.Runtime.CompilerServices;
+using System.Windows.Forms;
 
 namespace SGE.ControlEquipos
 {
@@ -19,6 +20,7 @@ namespace SGE.ControlEquipos
             this.Text = btnGP.Text;
             this.Refresh();
             Constantes.Connection = 1;
+            cargar();
         }
 
         private void btnGP_Click(object sender, EventArgs e)
@@ -69,10 +71,38 @@ namespace SGE.ControlEquipos
             cargar();
         }
 
-        void cargar() {
-            
-            lista = new GeneralData().Listar_Equipos();
+        async void cargar() {
+            Task<List<Entities.ControlEquipos>> task = new Task<List<Entities.ControlEquipos>>(new GeneralData().Listar_Equipos);
+            task.Start();
+            lista =await task;
             grdLista.DataSource = lista;
+        }
+
+        private void grdLista_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void darAccesoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+            if (grdLista.SelectedCells.Count > 0)
+            {
+                Entities.ControlEquipos Obe = new Entities.ControlEquipos();
+
+                int index = grdLista.SelectedCells[0].RowIndex;
+                DataGridViewRow selectedRow = grdLista.Rows[index];
+
+                Obe.ceq_vnombre_equipo = selectedRow.Cells["Nombre"].Value.ToString()!;
+                Obe.cep_vid_cpu = selectedRow.Cells["CPU"].Value.ToString()!;
+
+                Obe = new GeneralData().Equipo_Obtner_Datos(Obe.ceq_vnombre_equipo, Obe.cep_vid_cpu);
+
+                Obe.cep_bflag_acceso = true;
+                new GeneralData().Equipo_Dar_Acceso(Obe);
+                cargar();
+            }
+
         }
     }
 }

@@ -46,3 +46,14 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEqu
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.Properties.Resources.resources
