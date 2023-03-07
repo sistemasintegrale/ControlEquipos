@@ -5,6 +5,7 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEqu
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\app.publish\SGE.ControlEquipos.pdb
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\app.publish\Azure.Core.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\app.publish\Azure.Identity.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\app.publish\FontAwesome.Sharp.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\app.publish\Guna.UI2.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\app.publish\MetroFramework.Design.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\app.publish\MetroFramework.Fonts.dll

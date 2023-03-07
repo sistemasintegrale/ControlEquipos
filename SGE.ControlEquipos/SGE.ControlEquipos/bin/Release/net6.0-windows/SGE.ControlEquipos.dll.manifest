@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SGE.ControlEquipos.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="SGE.ControlEquipos.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -69,6 +69,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>Zmlzr5CM+CpJVTCy6iMHQATerUReG7Ru91pePIeaYyE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="FontAwesome.Sharp.dll" size="762368">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2A0VFT36WpAMvWGDqDH+kB8QciZKW2UHbDZFYsITxrM=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Guna.UI2.dll" size="2087304">
@@ -368,22 +377,22 @@
       <dsig:DigestValue>KaZfbpH/pyIsqftha+ldlIQVWNRgsGKXPhix52m7yTw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SGE.ControlEquipos.deps.json" size="37323">
+  <file name="SGE.ControlEquipos.deps.json" size="37909">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>uSt7zswuxyvuwcFoVgfMU3mMLNhLwH2hsOfjXYz5hos=</dsig:DigestValue>
+      <dsig:DigestValue>aEoQKajiynmPEOb6sW8nDXeHvqzJzipyrGMwDtN7Whc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SGE.ControlEquipos.dll" size="38400">
+  <file name="SGE.ControlEquipos.dll" size="49152">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>w3vPuOCOqRQWipJEY55Me+FMSjlQBd36deTQeXny8pU=</dsig:DigestValue>
+      <dsig:DigestValue>IKA1KuQcCWbJDsuVvpw8NdrOUfmMFvGLo7KNZ1A2yn0=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SGE.ControlEquipos.exe" size="147968">

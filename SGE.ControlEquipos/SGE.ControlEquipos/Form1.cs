@@ -10,6 +10,7 @@ namespace SGE.ControlEquipos
     public partial class Form1 : MetroFramework.Forms.MetroForm
     {
         List<Entities.ControlEquipos> lista = new List<Entities.ControlEquipos>();
+        List<ControlVersiones> listVersiones = new List<ControlVersiones>();
         public Form1()
         {
             InitializeComponent();
@@ -72,10 +73,16 @@ namespace SGE.ControlEquipos
         }
 
         async void cargar() {
-            Task<List<Entities.ControlEquipos>> task = new Task<List<Entities.ControlEquipos>>(new GeneralData().Listar_Equipos);
-            task.Start();
-            lista =await task;
+            Task<List<Entities.ControlEquipos>> taskEquipos = new Task<List<Entities.ControlEquipos>>(new GeneralData().Listar_Equipos);
+            taskEquipos.Start();
+            lista =await taskEquipos;
             grdLista.DataSource = lista;
+
+            Task<List<ControlVersiones>> taskVersiones = new Task<List<ControlVersiones>>(new GeneralData().Listar_Versiones);
+            taskVersiones.Start();
+            listVersiones = await taskVersiones;
+            grdPublicaciones.DataSource = listVersiones;
+
         }
 
         private void grdLista_CellContentClick(object sender, DataGridViewCellEventArgs e)
@@ -103,6 +110,17 @@ namespace SGE.ControlEquipos
                 cargar();
             }
 
+        }
+
+        private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmMateVersiones frm = new FrmMateVersiones();
+            frm.ShowDialog();
+            DialogResult result = frm.DialogResult;
+            if (result == DialogResult.OK)
+            {
+                cargar();
+            }
         }
     }
 }

@@ -4,12 +4,49 @@ using SGE.ControlEquipos.Entities;
 using SGE.ControlEquipos.helper;
 using System.Data;
 using Microsoft.EntityFrameworkCore;
+using static Guna.UI2.Native.WinApi;
 
 
 namespace SGE.ControlEquipos.DataAcces
 {
     public class GeneralData
     {
+
+        internal List<ControlVersiones> Listar_Versiones() {
+
+            List<ControlVersiones> lista = new();
+            try
+            {
+                using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
+                {
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("ACT_ACTUALIZACIONES_LISTAR", cn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.CommandTimeout = int.MaxValue;
+                        cmd.ExecuteNonQuery();
+                        SqlDataReader reader = cmd.ExecuteReader();
+                        while (reader.Read())
+                        {
+                            lista.Add(new ControlVersiones()
+                            {
+                                cvr_icod_version = Convert.ToInt32(reader["cvr_icod_version"]),
+                                cvr_vversion = reader["cvr_vversion"].ToString()!,
+                                cvr_sfecha_version = Convert.ToDateTime(reader["cvr_sfecha_version"]).AddHours(-5),
+                                cvr_vurl = reader["cvr_vurl"].ToString()!,
+                            });
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+
+                Console.WriteLine(ex);
+            }
+            return lista;
+        }
+
         internal void Equipo_Dar_Acceso(Entities.ControlEquipos obe)
         {
 
@@ -147,40 +184,25 @@ namespace SGE.ControlEquipos.DataAcces
             return lista;
         }
 
-        internal List<ControlVersiones> Listar_Versiones()
+        internal void Version_Guardar(ControlVersiones obj)
         {
-            List<ControlVersiones> lista = new List<ControlVersiones>();
             try
             {
+               
                 using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
                 {
+                    string query = $"INSERT INTO SGE_CONTROL_VERSIONES (cvr_vversion,cvr_vurl) VALUES ('{obj.cvr_vversion}','{obj.cvr_vurl}')";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.CommandType = CommandType.Text; 
                     cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("ACT_ACTUALIZACIONES_LISTAR", cn))
-                    {
-                        cmd.CommandType = CommandType.StoredProcedure;
-                        cmd.CommandTimeout = int.MaxValue;
-                        SqlDataReader reader = cmd.ExecuteReader();
-                        while (reader.Read())
-                        {
-
-                            lista.Add(new ControlVersiones()
-                            {
-                                cvr_icod_version = Convert.ToInt32(reader["cvr_icod_version"]),
-                                cvr_vversion = reader["cvr_vversion"].ToString()!,
-                                cvr_sfecha_version = Convert.ToDateTime(reader["cvr_sfecha_version"]),
-                                cvr_vurl = reader["cvr_vurl"].ToString()!,
-                            }); ;
-
-                        }
-                    }
+                    cmd.ExecuteReader();
                 }
+
             }
             catch (Exception ex)
             {
                 Console.WriteLine(ex);
             }
-            return lista;
         }
-
     }
 }

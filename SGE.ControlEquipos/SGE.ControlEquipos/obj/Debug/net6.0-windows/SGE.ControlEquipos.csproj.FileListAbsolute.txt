@@ -57,3 +57,6 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEqu
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.Properties.Resources.resources
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.FrmMateVersiones.resources
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.MsgShow.resources

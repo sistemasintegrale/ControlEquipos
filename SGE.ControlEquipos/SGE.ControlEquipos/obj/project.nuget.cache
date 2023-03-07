@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+Dqz5lCVFAIg/21f22Iu9IfhcxPsbryqzP+vjlExU5a/+GkYYO0tTn2xXSEI4z2cZnNTeSYt7yaVMM0es8k4yA==",
+  "dgSpecHash": "E5siUR/sOPxfBcVPn2tXNW01KNdg0VpXQKya0mUykf1Ap9rX2PRPfSxC0Io6MwK0SZ2HtfOJLXyH4nqQxudMiQ==",
   "success": true,
   "projectFilePath": "D:\\PROYECTOS RAFHAEL\\SOLUCIONES\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ROBERTO\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\ROBERTO\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\ROBERTO\\.nuget\\packages\\fontawesome.sharp\\6.3.0\\fontawesome.sharp.6.3.0.nupkg.sha512",
     "C:\\Users\\ROBERTO\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.4\\guna.ui2.winforms.2.0.4.4.nupkg.sha512",
     "C:\\Users\\ROBERTO\\.nuget\\packages\\metromodernui\\1.4.0\\metromodernui.1.4.0.nupkg.sha512",
     "C:\\Users\\ROBERTO\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

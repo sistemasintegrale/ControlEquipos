@@ -46,6 +46,18 @@
           }
         }
       },
+      "FontAwesome.Sharp/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/FontAwesome.Sharp.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App"
+        ]
+      },
       "Guna.UI2.WinForms/2.0.4.4": {
         "type": "package",
         "dependencies": {
@@ -1030,6 +1042,21 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "FontAwesome.Sharp/6.3.0": {
+      "sha512": "3/Fb0N04yYK8An07oox5ISlUyNgsnWildHfoP69uqTEOsemQemRyciphMkXZOcdBupjUD+lVsRE3FqG41/dzPA==",
+      "type": "package",
+      "path": "fontawesome.sharp/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fontawesome.sharp.6.3.0.nupkg.sha512",
+        "fontawesome.sharp.nuspec",
+        "lib/net472/FontAwesome.Sharp.dll",
+        "lib/net48/FontAwesome.Sharp.dll",
+        "lib/net6.0-windows7.0/FontAwesome.Sharp.dll",
+        "lib/netcoreapp3.1/FontAwesome.Sharp.dll"
       ]
     },
     "Guna.UI2.WinForms/2.0.4.4": {
@@ -2638,6 +2665,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "FontAwesome.Sharp >= 6.3.0",
       "Guna.UI2.WinForms >= 2.0.4.4",
       "MetroModernUI >= 1.4.0",
       "Microsoft.Data.SqlClient >= 5.1.0",
@@ -2690,6 +2718,10 @@
       "net6.0-windows7.0": {
         "targetAlias": "net6.0-windows",
         "dependencies": {
+          "FontAwesome.Sharp": {
+            "target": "Package",
+            "version": "[6.3.0, )"
+          },
           "Guna.UI2.WinForms": {
             "target": "Package",
             "version": "[2.0.4.4, )"
