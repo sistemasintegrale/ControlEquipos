@@ -26,6 +26,7 @@ namespace SGE.ControlEquipos
 
         private void btnGP_Click(object sender, EventArgs e)
         {
+            limpiarGrds();
             Constantes.Connection = Constantes.ConnGrenPeru;
             this.Text = btnGP.Text;
             this.Refresh();
@@ -34,6 +35,7 @@ namespace SGE.ControlEquipos
 
         private void btnGC_Click(object sender, EventArgs e)
         {
+            limpiarGrds();
             Constantes.Connection = Constantes.ConnGalyCompany;
             this.Text = btnGC.Text;
             this.Refresh();
@@ -42,6 +44,7 @@ namespace SGE.ControlEquipos
 
         private void btnMT_Click(object sender, EventArgs e)
         {
+            limpiarGrds();
             Constantes.Connection = Constantes.ConnMotoTorque;
             this.Text = btnMT.Text;
             this.Refresh();
@@ -50,6 +53,7 @@ namespace SGE.ControlEquipos
 
         private void btnNG_Click(object sender, EventArgs e)
         {
+            limpiarGrds();
             Constantes.Connection = Constantes.ConnNovaGlass;
             this.Text = btnNG.Text;
             this.Refresh();
@@ -58,6 +62,7 @@ namespace SGE.ControlEquipos
 
         private void btnNF_Click(object sender, EventArgs e)
         {
+            limpiarGrds();
             Constantes.Connection = Constantes.ConnNovaFlat;
             this.Text = btnNF.Text;
             this.Refresh();
@@ -66,24 +71,32 @@ namespace SGE.ControlEquipos
 
         private void btnNM_Click(object sender, EventArgs e)
         {
+            limpiarGrds();
             Constantes.Connection = Constantes.ConnNovaMotos;
             this.Text = btnNM.Text;
             this.Refresh();
             cargar();
         }
 
-        async void cargar() {
+        async void cargar()
+        {
+            spiner1.Visible = true;
+            spiner2.Visible = true;
             Task<List<Entities.ControlEquipos>> taskEquipos = new Task<List<Entities.ControlEquipos>>(new GeneralData().Listar_Equipos);
-            taskEquipos.Start();
-            lista =await taskEquipos;
-            grdLista.DataSource = lista;
-
             Task<List<ControlVersiones>> taskVersiones = new Task<List<ControlVersiones>>(new GeneralData().Listar_Versiones);
             taskVersiones.Start();
+            taskEquipos.Start();
+            lista = await taskEquipos;
             listVersiones = await taskVersiones;
+
+            spiner1.Visible = false;
             grdPublicaciones.DataSource = listVersiones;
+            spiner2.Visible = false;
+            grdLista.DataSource = lista;
 
         }
+
+
 
         private void grdLista_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -110,6 +123,12 @@ namespace SGE.ControlEquipos
                 cargar();
             }
 
+        }
+
+        void limpiarGrds()
+        {
+            grdLista.DataSource = new List<Entities.ControlEquipos>();
+            grdPublicaciones.DataSource = new List<ControlVersiones>();
         }
 
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)

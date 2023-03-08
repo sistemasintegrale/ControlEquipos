@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Interop;
+using Guna.UI2.WinForms;
 using SGE.ControlEquipos.DataAcces;
 using SGE.ControlEquipos.Entities;
 using SGE.ControlEquipos.helper;
@@ -17,6 +19,7 @@ namespace SGE.ControlEquipos
     public partial class FrmMateVersiones : MetroFramework.Forms.MetroForm
     {
         ControlVersiones obj = new ControlVersiones();
+        Guna2MessageDialog msg = new Guna2MessageDialog();
         public FrmMateVersiones()
         {
             InitializeComponent();
@@ -30,8 +33,13 @@ namespace SGE.ControlEquipos
             Task<bool> taskGuardarVersiones = new Task<bool>(Guardar);
             taskGuardarVersiones.Start();
             await taskGuardarVersiones;
-            MsgShow mensaje = new MsgShow(3, "Registro Exitoso");
-            mensaje.ShowDialog();
+
+            msg.Caption = "Información del Sistema";
+            msg.Text = "Registro Exitoso";
+            msg.Buttons = MessageDialogButtons.OK;
+            msg.Style = MessageDialogStyle.Light;
+            msg.Icon = MessageDialogIcon.Information;
+            msg.Show(); 
             DialogResult = DialogResult.OK;
         }
         private bool Guardar() {
