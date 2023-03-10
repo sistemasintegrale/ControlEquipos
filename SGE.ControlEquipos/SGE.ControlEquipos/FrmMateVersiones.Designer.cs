@@ -28,17 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.metroLabel1 = new MetroFramework.Controls.MetroLabel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             this.txtVersion = new Guna.UI2.WinForms.Guna2TextBox();
             this.txtUrl = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2MessageDialog1 = new Guna.UI2.WinForms.Guna2MessageDialog();
             this.SuspendLayout();
             // 
             // metroLabel1
@@ -63,7 +64,7 @@
             // 
             this.txtVersion.Animated = true;
             this.txtVersion.BorderRadius = 5;
-            this.txtVersion.CustomizableEdges = customizableEdges7;
+            this.txtVersion.CustomizableEdges = customizableEdges1;
             this.txtVersion.DefaultText = "";
             this.txtVersion.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtVersion.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -77,7 +78,7 @@
             this.txtVersion.PasswordChar = '\0';
             this.txtVersion.PlaceholderText = "";
             this.txtVersion.SelectedText = "";
-            this.txtVersion.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            this.txtVersion.ShadowDecoration.CustomizableEdges = customizableEdges2;
             this.txtVersion.Size = new System.Drawing.Size(284, 20);
             this.txtVersion.TabIndex = 2;
             // 
@@ -85,7 +86,7 @@
             // 
             this.txtUrl.Animated = true;
             this.txtUrl.BorderRadius = 5;
-            this.txtUrl.CustomizableEdges = customizableEdges9;
+            this.txtUrl.CustomizableEdges = customizableEdges3;
             this.txtUrl.DefaultText = "";
             this.txtUrl.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
             this.txtUrl.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
@@ -99,7 +100,7 @@
             this.txtUrl.PasswordChar = '\0';
             this.txtUrl.PlaceholderText = "";
             this.txtUrl.SelectedText = "";
-            this.txtUrl.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            this.txtUrl.ShadowDecoration.CustomizableEdges = customizableEdges4;
             this.txtUrl.Size = new System.Drawing.Size(284, 20);
             this.txtUrl.TabIndex = 3;
             // 
@@ -108,7 +109,7 @@
             this.guna2Button1.Animated = true;
             this.guna2Button1.AnimatedGIF = true;
             this.guna2Button1.BorderRadius = 5;
-            this.guna2Button1.CustomizableEdges = customizableEdges11;
+            this.guna2Button1.CustomizableEdges = customizableEdges5;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
@@ -117,11 +118,20 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.Location = new System.Drawing.Point(199, 159);
             this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            this.guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges6;
             this.guna2Button1.Size = new System.Drawing.Size(119, 29);
             this.guna2Button1.TabIndex = 4;
             this.guna2Button1.Text = "Guardar";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
+            // 
+            // guna2MessageDialog1
+            // 
+            this.guna2MessageDialog1.Buttons = Guna.UI2.WinForms.MessageDialogButtons.OK;
+            this.guna2MessageDialog1.Caption = null;
+            this.guna2MessageDialog1.Icon = Guna.UI2.WinForms.MessageDialogIcon.None;
+            this.guna2MessageDialog1.Parent = null;
+            this.guna2MessageDialog1.Style = Guna.UI2.WinForms.MessageDialogStyle.Default;
+            this.guna2MessageDialog1.Text = null;
             // 
             // FrmMateVersiones
             // 
@@ -149,5 +159,6 @@
         private Guna.UI2.WinForms.Guna2TextBox txtVersion;
         private Guna.UI2.WinForms.Guna2TextBox txtUrl;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2MessageDialog guna2MessageDialog1;
     }
 }

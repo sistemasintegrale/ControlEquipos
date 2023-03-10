@@ -21,7 +21,7 @@ namespace SGE.ControlEquipos
             this.Text = btnGP.Text;
             this.Refresh();
             Constantes.Connection = 1;
-            cargar();
+            cargar();            
         }
 
         private void btnGP_Click(object sender, EventArgs e)
@@ -120,6 +120,15 @@ namespace SGE.ControlEquipos
 
                 Obe.cep_bflag_acceso = true;
                 new GeneralData().Equipo_Dar_Acceso(Obe);
+
+                Guna2MessageDialog msg = new Guna2MessageDialog();
+                msg.Caption = "Información del Sistema";
+                msg.Text = "Actualización Exitosa";
+                msg.Buttons = MessageDialogButtons.OK;
+                msg.Style = MessageDialogStyle.Light;
+                msg.Icon = MessageDialogIcon.Information;
+                msg.Parent = this;
+                msg.Show();
                 cargar();
             }
 
@@ -134,6 +143,33 @@ namespace SGE.ControlEquipos
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmMateVersiones frm = new FrmMateVersiones();
+            frm.ShowDialog();
+            DialogResult result = frm.DialogResult;
+            if (result == DialogResult.OK)
+            {
+                cargar();
+            }
+        }
+
+        private async void modificarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (grdLista.SelectedCells.Count == 0)
+                return;
+            int index = grdPublicaciones.SelectedCells[0].RowIndex;
+            DataGridViewRow selectedRow = grdPublicaciones.Rows[index];
+
+            ControlVersiones Obe = new ControlVersiones();
+
+            var data = selectedRow.Cells;
+
+            Obe.cvr_icod_version = Convert.ToInt32(selectedRow.Cells["icod_version"].Value);
+            Task<List<ControlVersiones>> taskVersiones = new Task<List<ControlVersiones>>(new GeneralData().Listar_Versiones);
+            taskVersiones.Start();
+            var lista = await taskVersiones;
+            Obe = lista.Where(x => x.cvr_icod_version == Obe.cvr_icod_version).FirstOrDefault()!;
+            FrmMateVersiones frm = new FrmMateVersiones();
+            frm.obj = Obe;
+            frm.SetValues();
             frm.ShowDialog();
             DialogResult result = frm.DialogResult;
             if (result == DialogResult.OK)

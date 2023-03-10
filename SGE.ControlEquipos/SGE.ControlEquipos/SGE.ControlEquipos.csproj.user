@@ -10,8 +10,5 @@
     <Compile Update="FrmMateVersiones.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="MsgShow.cs">
-      <SubType>Form</SubType>
-    </Compile>
   </ItemGroup>
 </Project>

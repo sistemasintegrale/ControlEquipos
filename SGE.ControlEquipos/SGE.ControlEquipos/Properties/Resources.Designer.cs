@@ -83,6 +83,16 @@ namespace SGE.ControlEquipos.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CuentaBancaria_16x16 {
+            get {
+                object obj = ResourceManager.GetObject("CuentaBancaria_16x16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap doc_check {
             get {
                 object obj = ResourceManager.GetObject("doc_check", resourceCulture);

@@ -59,7 +59,6 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEqu
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.Properties.Resources.resources
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\FontAwesome.Sharp.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.FrmMateVersiones.resources
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.MsgShow.resources
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.dll.manifest
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.application
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.dll.manifest

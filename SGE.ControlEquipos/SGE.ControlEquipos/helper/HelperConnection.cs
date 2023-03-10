@@ -62,5 +62,7 @@ namespace SGE.ControlEquipos.helper
             }
             return strConexion;
         }
+
+        
     }
 }

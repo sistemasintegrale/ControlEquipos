@@ -6,7 +6,6 @@ using System.Data;
 using Microsoft.EntityFrameworkCore;
 using static Guna.UI2.Native.WinApi;
 
-
 namespace SGE.ControlEquipos.DataAcces
 {
     public class GeneralData
@@ -196,6 +195,27 @@ namespace SGE.ControlEquipos.DataAcces
                     cmd.CommandType = CommandType.Text; 
                     cn.Open();
                     cmd.ExecuteReader();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
+
+        internal async Task Version_Modificar(ControlVersiones obj)
+        {
+            try
+            {
+
+                using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
+                {
+                    string query = $"update SGE_CONTROL_VERSIONES set cvr_vversion = '{obj.cvr_vversion}', cvr_vurl = '{obj.cvr_vurl}' where cvr_icod_version = {obj.cvr_icod_version}";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.CommandType = CommandType.Text;
+                    cn.Open();
+                    await cmd.ExecuteNonQueryAsync();
                 }
 
             }

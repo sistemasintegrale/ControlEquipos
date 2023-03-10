@@ -18,33 +18,58 @@ namespace SGE.ControlEquipos
 {
     public partial class FrmMateVersiones : MetroFramework.Forms.MetroForm
     {
-        ControlVersiones obj = new ControlVersiones();
+        public ControlVersiones obj = new ControlVersiones();
         Guna2MessageDialog msg = new Guna2MessageDialog();
         public FrmMateVersiones()
         {
             InitializeComponent();
         }
 
+        public void SetValues()
+        {
+            txtVersion.Text = obj.cvr_vversion;
+            txtUrl.Text = obj.cvr_vurl;
+
+        }
+
         private async void guna2Button1_Click(object sender, EventArgs e)
         {
             obj.cvr_vversion = txtVersion.Text;
             obj.cvr_vurl = txtUrl.Text;
+            if (obj.cvr_icod_version == 0)
+            {
+                msg = new Guna2MessageDialog();
+                Task<bool> taskGuardarVersiones = new Task<bool>(Guardar);
+                taskGuardarVersiones.Start();
+                await taskGuardarVersiones;
+                msg.Caption = "Información del Sistema";
+                msg.Text = "Registro Exitoso";
+                msg.Buttons = MessageDialogButtons.OK;
+                msg.Style = MessageDialogStyle.Light;
+                msg.Icon = MessageDialogIcon.Information;
+                msg.Parent = this;
+                msg.Show();
 
-            Task<bool> taskGuardarVersiones = new Task<bool>(Guardar);
-            taskGuardarVersiones.Start();
-            await taskGuardarVersiones;
-
-            msg.Caption = "Información del Sistema";
-            msg.Text = "Registro Exitoso";
-            msg.Buttons = MessageDialogButtons.OK;
-            msg.Style = MessageDialogStyle.Light;
-            msg.Icon = MessageDialogIcon.Information;
-            msg.Show(); 
+            }
+            else
+            {
+                msg = new Guna2MessageDialog();
+                await new GeneralData().Version_Modificar(obj);
+                msg.Caption = "Información del Sistema";
+                msg.Text = "Actualización Exitosa";
+                msg.Buttons = MessageDialogButtons.OK;
+                msg.Style = MessageDialogStyle.Light;
+                msg.Icon = MessageDialogIcon.Information;
+                msg.Parent= this;
+                msg.Show();
+            }  
+            
             DialogResult = DialogResult.OK;
         }
-        private bool Guardar() {
+        private bool Guardar()
+        {
             new GeneralData().Version_Guardar(obj);
-            return true;               
+            return true;
         }
 
     }
