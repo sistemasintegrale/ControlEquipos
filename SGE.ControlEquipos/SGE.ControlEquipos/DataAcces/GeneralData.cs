@@ -72,23 +72,18 @@ namespace SGE.ControlEquipos.DataAcces
 
         }
 
-        internal void Equipo_Modificar(Entities.ControlEquipos objEquipo)
+        internal async void Equipo_Modificar(Entities.ControlEquipos objEquipo)
         {
             try
             {
                 using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
                 {
                     cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("ACT_EQUIPO_MODIFICAR", cn))
+                    using (SqlCommand cmd = new SqlCommand(SqlQueys.MODIFICAR_EQUIPOS(objEquipo), cn))
                     {
-                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.CommandType = CommandType.Text;
                         cmd.CommandTimeout = int.MaxValue;
-                        cmd.Parameters.AddWithValue("@ceq_icod_equipo", objEquipo.ceq_icod_equipo);
-                        cmd.Parameters.AddWithValue("@ceq_vnombre_equipo", objEquipo.ceq_vnombre_equipo);
-                        cmd.Parameters.AddWithValue("@cvr_icod_version", objEquipo.cvr_icod_version);
-                        cmd.Parameters.AddWithValue("@ceq_sfecha_actualizacion", objEquipo.ceq_sfecha_actualizacion);
-                        cmd.Parameters.AddWithValue("@cep_vubicacion_actualizador", objEquipo.cep_vubicacion_actualizador);
-                        cmd.ExecuteNonQuery();
+                        await cmd.ExecuteNonQueryAsync();
                     }
                 }
 
@@ -149,9 +144,11 @@ namespace SGE.ControlEquipos.DataAcces
                 using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
                 {
                     cn.Open();
-                    using (SqlCommand cmd = new SqlCommand("ACT_EQUIPO_LISTAR", cn))
+
+                    
+                    using (SqlCommand cmd = new SqlCommand(SqlQueys.LISTAR_EQUIPOS, cn))
                     {
-                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.CommandType = CommandType.Text;
                         cmd.CommandTimeout = int.MaxValue;
                         SqlDataReader reader = cmd.ExecuteReader();
                         while (reader.Read())
@@ -170,6 +167,7 @@ namespace SGE.ControlEquipos.DataAcces
                             obj.cep_vid_cpu = reader["cep_vid_cpu"].ToString()!;
                             obj.cep_bflag_acceso = Convert.ToBoolean(reader["cep_bflag_acceso"]);
                             obj.cep_vubicacion_actualizador = reader["cep_vubicacion_actualizador"].ToString()!;
+                            obj.ceq_vnombre_usuario = reader["ceq_vnombre_usuario"].ToString()!;
                             lista.Add(obj);
                         }
                     }

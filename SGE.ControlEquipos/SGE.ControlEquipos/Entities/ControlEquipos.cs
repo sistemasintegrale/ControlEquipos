@@ -15,5 +15,6 @@ namespace SGE.ControlEquipos.Entities
         public string cep_vid_cpu { get; set; } = null!;
         public bool cep_bflag_acceso { get; set; }
         public string cep_vubicacion_actualizador { get; set; } = null!;
+        public string ceq_vnombre_usuario { get; set; } = null!;
     }
 }

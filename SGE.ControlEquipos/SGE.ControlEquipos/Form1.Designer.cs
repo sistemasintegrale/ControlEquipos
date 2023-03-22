@@ -55,18 +55,9 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grdLista = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CPU = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Permiso = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ceq_icod_equipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cvr_icod_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ceq_sfecha_actualizacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cvr_vversion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cvr_sfecha_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cep_vubicacion_actualizador = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cvr_vurl = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mmenuEquipos = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.darAccesoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.modificarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.btnNM = new Guna.UI2.WinForms.Guna2Button();
             this.btnNF = new Guna.UI2.WinForms.Guna2Button();
@@ -79,16 +70,27 @@
             this.sd = new Guna.UI2.WinForms.Guna2GroupBox();
             this.spiner2 = new MetroFramework.Controls.MetroProgressSpinner();
             this.grdPublicaciones = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.Versión = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.icod_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mmenuVersiones = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.Equipos = new System.Windows.Forms.TabPage();
             this.Versiones = new System.Windows.Forms.TabPage();
-            this.Versión = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.icod_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CPU = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Permiso = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.ceq_icod_equipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cvr_icod_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ceq_sfecha_actualizacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cvr_vversion = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cvr_sfecha_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cep_vubicacion_actualizador = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.cvr_vurl = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ceq_vnombre_usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.grdLista)).BeginInit();
             this.mmenuEquipos.SuspendLayout();
             this.guna2GroupBox1.SuspendLayout();
@@ -127,7 +129,8 @@
             this.cvr_vversion,
             this.cvr_sfecha_version,
             this.cep_vubicacion_actualizador,
-            this.cvr_vurl});
+            this.cvr_vurl,
+            this.ceq_vnombre_usuario});
             this.grdLista.ContextMenuStrip = this.mmenuEquipos;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
@@ -177,89 +180,11 @@
             this.grdLista.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             this.grdLista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdLista_CellContentClick);
             // 
-            // Nombre
-            // 
-            this.Nombre.DataPropertyName = "ceq_vnombre_equipo";
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
-            // 
-            // CPU
-            // 
-            this.CPU.DataPropertyName = "cep_vid_cpu";
-            this.CPU.HeaderText = "CPU";
-            this.CPU.Name = "CPU";
-            this.CPU.ReadOnly = true;
-            // 
-            // Permiso
-            // 
-            this.Permiso.DataPropertyName = "cep_bflag_acceso";
-            this.Permiso.HeaderText = "Permiso";
-            this.Permiso.Name = "Permiso";
-            this.Permiso.ReadOnly = true;
-            this.Permiso.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Permiso.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            // 
-            // ceq_icod_equipo
-            // 
-            this.ceq_icod_equipo.DataPropertyName = "ceq_icod_equipo";
-            this.ceq_icod_equipo.HeaderText = "ceq_icod_equipo";
-            this.ceq_icod_equipo.Name = "ceq_icod_equipo";
-            this.ceq_icod_equipo.ReadOnly = true;
-            this.ceq_icod_equipo.Visible = false;
-            // 
-            // cvr_icod_version
-            // 
-            this.cvr_icod_version.DataPropertyName = "cvr_icod_version";
-            this.cvr_icod_version.HeaderText = "cvr_icod_version";
-            this.cvr_icod_version.Name = "cvr_icod_version";
-            this.cvr_icod_version.ReadOnly = true;
-            this.cvr_icod_version.Visible = false;
-            // 
-            // ceq_sfecha_actualizacion
-            // 
-            this.ceq_sfecha_actualizacion.DataPropertyName = "ceq_sfecha_actualizacion";
-            this.ceq_sfecha_actualizacion.HeaderText = "ceq_sfecha_actualizacion";
-            this.ceq_sfecha_actualizacion.Name = "ceq_sfecha_actualizacion";
-            this.ceq_sfecha_actualizacion.ReadOnly = true;
-            this.ceq_sfecha_actualizacion.Visible = false;
-            // 
-            // cvr_vversion
-            // 
-            this.cvr_vversion.DataPropertyName = "cvr_vversion";
-            this.cvr_vversion.HeaderText = "cvr_vversion";
-            this.cvr_vversion.Name = "cvr_vversion";
-            this.cvr_vversion.ReadOnly = true;
-            this.cvr_vversion.Visible = false;
-            // 
-            // cvr_sfecha_version
-            // 
-            this.cvr_sfecha_version.DataPropertyName = "cvr_sfecha_version";
-            this.cvr_sfecha_version.HeaderText = "cvr_sfecha_version";
-            this.cvr_sfecha_version.Name = "cvr_sfecha_version";
-            this.cvr_sfecha_version.ReadOnly = true;
-            this.cvr_sfecha_version.Visible = false;
-            // 
-            // cep_vubicacion_actualizador
-            // 
-            this.cep_vubicacion_actualizador.DataPropertyName = "cep_vubicacion_actualizador";
-            this.cep_vubicacion_actualizador.HeaderText = "cep_vubicacion_actualizador";
-            this.cep_vubicacion_actualizador.Name = "cep_vubicacion_actualizador";
-            this.cep_vubicacion_actualizador.ReadOnly = true;
-            this.cep_vubicacion_actualizador.Visible = false;
-            // 
-            // cvr_vurl
-            // 
-            this.cvr_vurl.DataPropertyName = "cvr_vurl";
-            this.cvr_vurl.HeaderText = "cvr_vurl";
-            this.cvr_vurl.Name = "cvr_vurl";
-            this.cvr_vurl.ReadOnly = true;
-            this.cvr_vurl.Visible = false;
-            // 
             // mmenuEquipos
             // 
             this.mmenuEquipos.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.darAccesoToolStripMenuItem});
+            this.darAccesoToolStripMenuItem,
+            this.modificarToolStripMenuItem1});
             this.mmenuEquipos.Name = "guna2ContextMenuStrip1";
             this.mmenuEquipos.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.mmenuEquipos.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
@@ -270,7 +195,7 @@
             this.mmenuEquipos.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
             this.mmenuEquipos.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
             this.mmenuEquipos.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.mmenuEquipos.Size = new System.Drawing.Size(134, 26);
+            this.mmenuEquipos.Size = new System.Drawing.Size(134, 48);
             // 
             // darAccesoToolStripMenuItem
             // 
@@ -279,6 +204,14 @@
             this.darAccesoToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
             this.darAccesoToolStripMenuItem.Text = "Dar Acceso";
             this.darAccesoToolStripMenuItem.Click += new System.EventHandler(this.darAccesoToolStripMenuItem_Click);
+            // 
+            // modificarToolStripMenuItem1
+            // 
+            this.modificarToolStripMenuItem1.Image = global::SGE.ControlEquipos.Properties.Resources.CuentaBancaria_16x16;
+            this.modificarToolStripMenuItem1.Name = "modificarToolStripMenuItem1";
+            this.modificarToolStripMenuItem1.Size = new System.Drawing.Size(133, 22);
+            this.modificarToolStripMenuItem1.Text = "Modificar";
+            this.modificarToolStripMenuItem1.Click += new System.EventHandler(this.modificarToolStripMenuItem1_Click);
             // 
             // guna2GroupBox1
             // 
@@ -549,6 +482,42 @@
             this.grdPublicaciones.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.grdPublicaciones.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             // 
+            // Versión
+            // 
+            this.Versión.DataPropertyName = "cvr_vversion";
+            this.Versión.FillWeight = 83.79895F;
+            this.Versión.HeaderText = "Versión";
+            this.Versión.Name = "Versión";
+            this.Versión.ReadOnly = true;
+            this.Versión.Width = 300;
+            // 
+            // Fecha
+            // 
+            this.Fecha.DataPropertyName = "cvr_sfecha_version";
+            this.Fecha.FillWeight = 216.2013F;
+            this.Fecha.HeaderText = "Fecha";
+            this.Fecha.Name = "Fecha";
+            this.Fecha.ReadOnly = true;
+            this.Fecha.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "cvr_vurl";
+            this.dataGridViewTextBoxColumn1.HeaderText = "cvr_vurl";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
+            this.dataGridViewTextBoxColumn1.Visible = false;
+            this.dataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // icod_version
+            // 
+            this.icod_version.DataPropertyName = "cvr_icod_version";
+            this.icod_version.HeaderText = "cvr_icod_version";
+            this.icod_version.Name = "icod_version";
+            this.icod_version.ReadOnly = true;
+            this.icod_version.Visible = false;
+            this.icod_version.Width = 5;
+            // 
             // mmenuVersiones
             // 
             this.mmenuVersiones.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -635,41 +604,91 @@
             this.Versiones.Text = "Versiones";
             this.Versiones.UseVisualStyleBackColor = true;
             // 
-            // Versión
+            // Nombre
             // 
-            this.Versión.DataPropertyName = "cvr_vversion";
-            this.Versión.FillWeight = 83.79895F;
-            this.Versión.HeaderText = "Versión";
-            this.Versión.Name = "Versión";
-            this.Versión.ReadOnly = true;
-            this.Versión.Width = 300;
+            this.Nombre.DataPropertyName = "ceq_vnombre_equipo";
+            this.Nombre.HeaderText = "Nombre";
+            this.Nombre.Name = "Nombre";
+            this.Nombre.ReadOnly = true;
             // 
-            // Fecha
+            // CPU
             // 
-            this.Fecha.DataPropertyName = "cvr_sfecha_version";
-            this.Fecha.FillWeight = 216.2013F;
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
-            this.Fecha.ReadOnly = true;
-            this.Fecha.Width = 200;
+            this.CPU.DataPropertyName = "cep_vid_cpu";
+            this.CPU.HeaderText = "CPU";
+            this.CPU.Name = "CPU";
+            this.CPU.ReadOnly = true;
             // 
-            // dataGridViewTextBoxColumn1
+            // Permiso
             // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "cvr_vurl";
-            this.dataGridViewTextBoxColumn1.HeaderText = "cvr_vurl";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Visible = false;
-            this.dataGridViewTextBoxColumn1.Width = 150;
+            this.Permiso.DataPropertyName = "cep_bflag_acceso";
+            this.Permiso.HeaderText = "Permiso";
+            this.Permiso.Name = "Permiso";
+            this.Permiso.ReadOnly = true;
+            this.Permiso.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.Permiso.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             // 
-            // icod_version
+            // ceq_icod_equipo
             // 
-            this.icod_version.DataPropertyName = "cvr_icod_version";
-            this.icod_version.HeaderText = "cvr_icod_version";
-            this.icod_version.Name = "icod_version";
-            this.icod_version.ReadOnly = true;
-            this.icod_version.Visible = false;
-            this.icod_version.Width = 5;
+            this.ceq_icod_equipo.DataPropertyName = "ceq_icod_equipo";
+            this.ceq_icod_equipo.HeaderText = "ceq_icod_equipo";
+            this.ceq_icod_equipo.Name = "ceq_icod_equipo";
+            this.ceq_icod_equipo.ReadOnly = true;
+            this.ceq_icod_equipo.Visible = false;
+            // 
+            // cvr_icod_version
+            // 
+            this.cvr_icod_version.DataPropertyName = "cvr_icod_version";
+            this.cvr_icod_version.HeaderText = "cvr_icod_version";
+            this.cvr_icod_version.Name = "cvr_icod_version";
+            this.cvr_icod_version.ReadOnly = true;
+            this.cvr_icod_version.Visible = false;
+            // 
+            // ceq_sfecha_actualizacion
+            // 
+            this.ceq_sfecha_actualizacion.DataPropertyName = "ceq_sfecha_actualizacion";
+            this.ceq_sfecha_actualizacion.HeaderText = "ceq_sfecha_actualizacion";
+            this.ceq_sfecha_actualizacion.Name = "ceq_sfecha_actualizacion";
+            this.ceq_sfecha_actualizacion.ReadOnly = true;
+            this.ceq_sfecha_actualizacion.Visible = false;
+            // 
+            // cvr_vversion
+            // 
+            this.cvr_vversion.DataPropertyName = "cvr_vversion";
+            this.cvr_vversion.HeaderText = "cvr_vversion";
+            this.cvr_vversion.Name = "cvr_vversion";
+            this.cvr_vversion.ReadOnly = true;
+            this.cvr_vversion.Visible = false;
+            // 
+            // cvr_sfecha_version
+            // 
+            this.cvr_sfecha_version.DataPropertyName = "cvr_sfecha_version";
+            this.cvr_sfecha_version.HeaderText = "cvr_sfecha_version";
+            this.cvr_sfecha_version.Name = "cvr_sfecha_version";
+            this.cvr_sfecha_version.ReadOnly = true;
+            this.cvr_sfecha_version.Visible = false;
+            // 
+            // cep_vubicacion_actualizador
+            // 
+            this.cep_vubicacion_actualizador.DataPropertyName = "cep_vubicacion_actualizador";
+            this.cep_vubicacion_actualizador.HeaderText = "cep_vubicacion_actualizador";
+            this.cep_vubicacion_actualizador.Name = "cep_vubicacion_actualizador";
+            this.cep_vubicacion_actualizador.ReadOnly = true;
+            this.cep_vubicacion_actualizador.Visible = false;
+            // 
+            // cvr_vurl
+            // 
+            this.cvr_vurl.DataPropertyName = "cvr_vurl";
+            this.cvr_vurl.HeaderText = "cvr_vurl";
+            this.cvr_vurl.Name = "cvr_vurl";
+            this.cvr_vurl.ReadOnly = true;
+            this.cvr_vurl.Visible = false;
+            // 
+            // ceq_vnombre_usuario
+            // 
+            this.ceq_vnombre_usuario.DataPropertyName = "ceq_vnombre_usuario";
+            this.ceq_vnombre_usuario.HeaderText = "Usuario";
+            this.ceq_vnombre_usuario.Name = "ceq_vnombre_usuario";
+            this.ceq_vnombre_usuario.ReadOnly = true;
             // 
             // Form1
             // 
@@ -707,16 +726,6 @@
         private Guna.UI2.WinForms.Guna2Button btnMT;
         private Guna.UI2.WinForms.Guna2Button btnGC;
         private Guna.UI2.WinForms.Guna2Button btnGP;
-        private DataGridViewTextBoxColumn Nombre;
-        private DataGridViewTextBoxColumn CPU;
-        private DataGridViewCheckBoxColumn Permiso;
-        private DataGridViewTextBoxColumn ceq_icod_equipo;
-        private DataGridViewTextBoxColumn cvr_icod_version;
-        private DataGridViewTextBoxColumn ceq_sfecha_actualizacion;
-        private DataGridViewTextBoxColumn cvr_vversion;
-        private DataGridViewTextBoxColumn cvr_sfecha_version;
-        private DataGridViewTextBoxColumn cep_vubicacion_actualizador;
-        private DataGridViewTextBoxColumn cvr_vurl;
         private Guna.UI2.WinForms.Guna2ContextMenuStrip mmenuEquipos;
         private ToolStripMenuItem darAccesoToolStripMenuItem;
         private Guna.UI2.WinForms.Guna2GroupBox sd;
@@ -733,5 +742,17 @@
         private DataGridViewTextBoxColumn Fecha;
         private DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
         private DataGridViewTextBoxColumn icod_version;
+        private ToolStripMenuItem modificarToolStripMenuItem1;
+        private DataGridViewTextBoxColumn Nombre;
+        private DataGridViewTextBoxColumn CPU;
+        private DataGridViewCheckBoxColumn Permiso;
+        private DataGridViewTextBoxColumn ceq_icod_equipo;
+        private DataGridViewTextBoxColumn cvr_icod_version;
+        private DataGridViewTextBoxColumn ceq_sfecha_actualizacion;
+        private DataGridViewTextBoxColumn cvr_vversion;
+        private DataGridViewTextBoxColumn cvr_sfecha_version;
+        private DataGridViewTextBoxColumn cep_vubicacion_actualizador;
+        private DataGridViewTextBoxColumn cvr_vurl;
+        private DataGridViewTextBoxColumn ceq_vnombre_usuario;
     }
 }

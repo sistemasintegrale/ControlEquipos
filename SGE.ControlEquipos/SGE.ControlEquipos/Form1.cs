@@ -21,7 +21,7 @@ namespace SGE.ControlEquipos
             this.Text = btnGP.Text;
             this.Refresh();
             Constantes.Connection = 1;
-            cargar();            
+            cargar();
         }
 
         private void btnGP_Click(object sender, EventArgs e)
@@ -176,6 +176,36 @@ namespace SGE.ControlEquipos
             {
                 cargar();
             }
+        }
+
+        private void modificarToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            if (grdLista.SelectedCells.Count == 0)
+                return;
+
+            Entities.ControlEquipos Obe = new Entities.ControlEquipos();
+
+            int index = grdLista.SelectedCells[0].RowIndex;
+            DataGridViewRow selectedRow = grdLista.Rows[index];
+
+            Obe = lista.Where(x=> x.ceq_icod_equipo == Convert.ToInt32(selectedRow.Cells["ceq_icod_equipo"].Value)).FirstOrDefault()!;
+
+            frmManteEquipos frm = new frmManteEquipos();
+            frm.Obe = Obe;
+            frm.setValues();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                Guna2MessageDialog msg = new Guna2MessageDialog();
+                msg.Caption = "Información del Sistema";
+                msg.Text = "Actualización Exitosa";
+                msg.Buttons = MessageDialogButtons.OK;
+                msg.Style = MessageDialogStyle.Light;
+                msg.Icon = MessageDialogIcon.Information;
+                msg.Parent = this;
+                msg.Show();
+                cargar();
+            }           
+
         }
     }
 }
