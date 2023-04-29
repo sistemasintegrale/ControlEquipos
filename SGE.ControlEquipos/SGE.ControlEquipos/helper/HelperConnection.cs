@@ -32,6 +32,9 @@ namespace SGE.ControlEquipos.helper
                 case 6: // NOVA MOTOS
                     strConexion = "Server=novamotorssql.database.windows.net,1433;Initial Catalog=SGE_NOVAMOTOS;Persist Security Info=False;User ID=adminsql;Password = novamotors$9; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30; "; 
                     break;
+                case 7: //CALZADOS JAGUAR
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=sistemasintegrales_com_CJ;Persist Security Info=True;User ID=sistemasintegrales_com_CJ;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    break;
             }
             return strConexion;
         }
@@ -58,6 +61,9 @@ namespace SGE.ControlEquipos.helper
                     break;
                 case 6: // NOVA MOTOS
                     strConexion = "Nova-Motos";
+                    break;
+                case 7: // CALZADOS JAGUAR
+                    strConexion = "Calzados-Jaguar";
                     break;
             }
             return strConexion;

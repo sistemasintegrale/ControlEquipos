@@ -207,5 +207,14 @@ namespace SGE.ControlEquipos
             }           
 
         }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            limpiarGrds();
+            Constantes.Connection = Constantes.ConnCalzadosJaguar;
+            this.Text = btnCJ.Text;
+            this.Refresh();
+            cargar();
+        }
     }
 }
