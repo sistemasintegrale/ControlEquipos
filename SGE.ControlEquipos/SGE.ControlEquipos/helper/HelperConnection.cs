@@ -33,7 +33,7 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Server=novamotorssql.database.windows.net,1433;Initial Catalog=SGE_NOVAMOTOS;Persist Security Info=False;User ID=adminsql;Password = novamotors$9; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30; "; 
                     break;
                 case 7: //CALZADOS JAGUAR
-                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=jaguar_com_pe_CJN;Persist Security Info=True;User ID=sistemasintegrales_com_CJ;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=jaguar_com_pe_CJ;Persist Security Info=True;User ID=jaguar_com_pe_CJ;Password=eY-68j#0D;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
             }
             return strConexion;
