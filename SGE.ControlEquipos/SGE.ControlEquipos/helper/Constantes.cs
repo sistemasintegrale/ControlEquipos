@@ -10,6 +10,7 @@
         public static int ConnNovaFlat = 5;
         public static int ConnNovaMotos = 6;
         public static int ConnCalzadosJaguar = 7;
+        public static int ConnPradosVerdes = 8;
 
         //
 

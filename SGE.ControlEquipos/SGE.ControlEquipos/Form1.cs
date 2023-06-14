@@ -216,5 +216,14 @@ namespace SGE.ControlEquipos
             this.Refresh();
             cargar();
         }
+
+        private void btnPV_Click(object sender, EventArgs e)
+        {
+            limpiarGrds();
+            Constantes.Connection = Constantes.ConnPradosVerdes;
+            this.Text = btnPV.Text;
+            this.Refresh();
+            cargar();
+        }
     }
 }
