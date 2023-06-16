@@ -36,7 +36,7 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=jaguar_com_pe_CJ;Persist Security Info=True;User ID=jaguar_com_pe_CJ;Password=eY-68j#0D;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 8: //CALZADOS JAGUAR
-                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=sistemasintegrales_com_PV;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=parquesdelparaiso_pe_PV;Persist Security Info=True;User ID=parquesdelparaiso_pe_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
             }
             return strConexion;
