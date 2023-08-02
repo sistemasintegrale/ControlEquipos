@@ -16,68 +16,25 @@ namespace SGE.ControlEquipos
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            this.Text = btnGP.Text;
-            this.Refresh();
-            Constantes.Connection = 1;
-            cargar();
-        }
-
-        private void btnGP_Click(object sender, EventArgs e)
+        void Reload(int conneccion, Guna2Button button)
         {
             limpiarGrds();
-            Constantes.Connection = Constantes.ConnGrenPeru;
-            this.Text = btnGP.Text;
+            this.Text = button.Text;
             this.Refresh();
+            Constantes.Connection = conneccion;
             cargar();
         }
 
-        private void btnGC_Click(object sender, EventArgs e)
-        {
-            limpiarGrds();
-            Constantes.Connection = Constantes.ConnGalyCompany;
-            this.Text = btnGC.Text;
-            this.Refresh();
-            cargar();
-        }
-
-        private void btnMT_Click(object sender, EventArgs e)
-        {
-            limpiarGrds();
-            Constantes.Connection = Constantes.ConnMotoTorque;
-            this.Text = btnMT.Text;
-            this.Refresh();
-            cargar();
-        }
-
-        private void btnNG_Click(object sender, EventArgs e)
-        {
-            limpiarGrds();
-            Constantes.Connection = Constantes.ConnNovaGlass;
-            this.Text = btnNG.Text;
-            this.Refresh();
-            cargar();
-        }
-
-        private void btnNF_Click(object sender, EventArgs e)
-        {
-            limpiarGrds();
-            Constantes.Connection = Constantes.ConnNovaFlat;
-            this.Text = btnNF.Text;
-            this.Refresh();
-            cargar();
-        }
-
-        private void btnNM_Click(object sender, EventArgs e)
-        {
-            limpiarGrds();
-            Constantes.Connection = Constantes.ConnNovaMotos;
-            this.Text = btnNM.Text;
-            this.Refresh();
-            cargar();
-        }
-
+        private void Form1_Load(object sender, EventArgs e) => Reload(1, btnGP);
+        private void btnGP_Click(object sender, EventArgs e) => Reload(Constantes.ConnGrenPeru, btnGP);
+        private void btnGC_Click(object sender, EventArgs e) => Reload(Constantes.ConnGalyCompany, btnGC);
+        private void btnMT_Click(object sender, EventArgs e) => Reload(Constantes.ConnMotoTorque, btnMT);
+        private void btnNG_Click(object sender, EventArgs e) => Reload(Constantes.ConnNovaGlass, btnNG);
+        private void btnNF_Click(object sender, EventArgs e) => Reload(Constantes.ConnNovaFlat, btnNF);
+        private void btnNM_Click(object sender, EventArgs e) => Reload(Constantes.ConnNovaMotos, btnNM);
+        private void guna2Button1_Click(object sender, EventArgs e) => Reload(Constantes.ConnCalzadosJaguar, btnCJ);
+        private void btnPV_Click(object sender, EventArgs e) => Reload(Constantes.ConnPradosVerdes, btnPV);
+        private void btnTL_Click(object sender, EventArgs e) => Reload(Constantes.ConnTelasLima, btnTL);
         async void cargar()
         {
             spiner1.Visible = true;
@@ -188,7 +145,7 @@ namespace SGE.ControlEquipos
             int index = grdLista.SelectedCells[0].RowIndex;
             DataGridViewRow selectedRow = grdLista.Rows[index];
 
-            Obe = lista.Where(x=> x.ceq_icod_equipo == Convert.ToInt32(selectedRow.Cells["ceq_icod_equipo"].Value)).FirstOrDefault()!;
+            Obe = lista.Where(x => x.ceq_icod_equipo == Convert.ToInt32(selectedRow.Cells["ceq_icod_equipo"].Value)).FirstOrDefault()!;
 
             frmManteEquipos frm = new frmManteEquipos();
             frm.Obe = Obe;
@@ -204,26 +161,10 @@ namespace SGE.ControlEquipos
                 msg.Parent = this;
                 msg.Show();
                 cargar();
-            }           
+            }
 
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
-        {
-            limpiarGrds();
-            Constantes.Connection = Constantes.ConnCalzadosJaguar;
-            this.Text = btnCJ.Text;
-            this.Refresh();
-            cargar();
-        }
-
-        private void btnPV_Click(object sender, EventArgs e)
-        {
-            limpiarGrds();
-            Constantes.Connection = Constantes.ConnPradosVerdes;
-            this.Text = btnPV.Text;
-            this.Refresh();
-            cargar();
-        }
+       
     }
 }

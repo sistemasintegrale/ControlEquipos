@@ -38,6 +38,9 @@ namespace SGE.ControlEquipos.helper
                 case 8: //CALZADOS JAGUAR
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=parquesdelparaiso_pe_PV;Persist Security Info=True;User ID=parquesdelparaiso_pe_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
+                case 9: //TELAS LIMA
+                    strConexion =  "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_TL;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    break;
             }
             return strConexion;
         }
@@ -70,6 +73,9 @@ namespace SGE.ControlEquipos.helper
                     break;
                 case 8: // PRADOS VERDES
                     strConexion = "Prados-Verdes";
+                    break;
+                case 9: // PRADOS VERDES
+                    strConexion = "Telas-Lima";
                     break;
             }
             return strConexion;
