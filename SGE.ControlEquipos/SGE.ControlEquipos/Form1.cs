@@ -35,6 +35,7 @@ namespace SGE.ControlEquipos
         private void guna2Button1_Click(object sender, EventArgs e) => Reload(Constantes.ConnCalzadosJaguar, btnCJ);
         private void btnPV_Click(object sender, EventArgs e) => Reload(Constantes.ConnPradosVerdes, btnPV);
         private void btnTL_Click(object sender, EventArgs e) => Reload(Constantes.ConnTelasLima, btnTL);
+        private void btnUl_Click(object sender, EventArgs e) => Reload(Constantes.ConnUlike, btnUl);
         async void cargar()
         {
             spiner1.Visible = true;
@@ -165,6 +166,6 @@ namespace SGE.ControlEquipos
 
         }
 
-       
+        
     }
 }
