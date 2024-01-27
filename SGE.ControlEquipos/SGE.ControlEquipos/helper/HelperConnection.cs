@@ -24,10 +24,10 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=sistemasintegrales_com_MT;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 4: //NOVA GLASS
-                    strConexion = "Server=novaglass.database.windows.net,1433;Initial Catalog=SGE_NOVAGLASS;Persist Security Info=False;User ID=adminnova;Password = Novaazure$9; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30; ";
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=novaglass_pe_NG;Persist Security Info=True;User ID=novaglass_pe_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 5: //NOVA FLAT
-                    strConexion = "Server=novaglass.database.windows.net,1433;Initial Catalog=SGE_NOVAFLAT;Persist Security Info=False;User ID=adminnova;Password = Novaazure$9; MultipleActiveResultSets = False; Encrypt = True; TrustServerCertificate = False; Connection Timeout = 30; ";
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=sistemasintegrales_com_prueba;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True;TrustServerCertificate = False;Encrypt = False";
                     break;
                 case 6: // NOVA MOTOS
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=novamotos_com_NM;Persist Security Info=True;User ID=novamotos_com_de;Password=_9]4z#rWW;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
