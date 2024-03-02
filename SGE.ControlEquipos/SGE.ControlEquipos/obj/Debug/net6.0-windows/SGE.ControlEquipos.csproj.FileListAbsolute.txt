@@ -54,9 +54,10 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEqu
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.AssemblyInfoInputs.cache
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.AssemblyInfo.cs
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.csproj.CoreCompileInputs.cache
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.csproj.CopyComplete
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\refint\SGE.ControlEquipos.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.pdb
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.genruntimeconfig.cache
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\ref\SGE.ControlEquipos.dll
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.ControlEquipos.sourcelink.json
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Debug\net6.0-windows\SGE.Cont.1CDEE87B.Up2Date

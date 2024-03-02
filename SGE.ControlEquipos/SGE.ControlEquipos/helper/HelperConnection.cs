@@ -27,7 +27,7 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=novaglass_pe_NG;Persist Security Info=True;User ID=novaglass_pe_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 5: //NOVA FLAT
-                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=sistemasintegrales_com_prueba;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True;TrustServerCertificate = False;Encrypt = False";
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=novaflatsac_com_NF;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True;TrustServerCertificate = False;Encrypt = False";
                     break;
                 case 6: // NOVA MOTOS
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=novamotos_com_NM;Persist Security Info=True;User ID=novamotos_com_de;Password=_9]4z#rWW;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";

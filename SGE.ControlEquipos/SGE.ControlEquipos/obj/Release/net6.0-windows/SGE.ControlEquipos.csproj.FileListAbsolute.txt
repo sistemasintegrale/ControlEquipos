@@ -40,7 +40,6 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEqu
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.AssemblyInfoInputs.cache
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.AssemblyInfo.cs
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.csproj.CoreCompileInputs.cache
-D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.csproj.CopyComplete
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\refint\SGE.ControlEquipos.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.pdb
@@ -60,7 +59,97 @@ D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEqu
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\FontAwesome.Sharp.dll
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.FrmMateVersiones.resources
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.frmManteEquipos.resources
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.sourcelink.json
+D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.Cont.1CDEE87B.Up2Date
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.dll.manifest
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.application
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.dll.manifest
 D:\PROYECTOS RAFHAEL\SOLUCIONES\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.application
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.exe
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.deps.json
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.runtimeconfig.json
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.pdb
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Azure.Core.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Azure.Identity.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\FontAwesome.Sharp.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Guna.UI2.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\MetroFramework.Design.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\MetroFramework.Fonts.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\MetroFramework.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Data.SqlClient.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Extensions.Logging.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Extensions.Options.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Extensions.Primitives.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Identity.Client.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.SqlServer.Server.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\System.Configuration.ConfigurationManager.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\System.Diagnostics.DiagnosticSource.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\System.Management.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\System.Memory.Data.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\System.Runtime.Caching.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Management.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.csproj.AssemblyReference.cache
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.Form1.resources
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.frmManteEquipos.resources
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.FrmMateVersiones.resources
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.Properties.Resources.resources
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.csproj.GenerateResource.cache
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.GeneratedMSBuildEditorConfig.editorconfig
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.AssemblyInfoInputs.cache
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.AssemblyInfo.cs
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.csproj.CoreCompileInputs.cache
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.sourcelink.json
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.Cont.1CDEE87B.Up2Date
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\refint\SGE.ControlEquipos.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.pdb
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.genruntimeconfig.cache
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\ref\SGE.ControlEquipos.dll
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.dll.manifest
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\bin\Release\net6.0-windows\SGE.ControlEquipos.application
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.dll.manifest
+D:\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\obj\Release\net6.0-windows\SGE.ControlEquipos.application
