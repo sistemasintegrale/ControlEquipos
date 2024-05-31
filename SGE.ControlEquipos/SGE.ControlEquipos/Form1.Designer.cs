@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -52,763 +54,765 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.grdLista = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CPU = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Permiso = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.ceq_icod_equipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cvr_icod_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ceq_sfecha_actualizacion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cvr_vversion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cvr_sfecha_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cep_vubicacion_actualizador = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.cvr_vurl = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ceq_vnombre_usuario = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mmenuEquipos = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
-            this.darAccesoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.btnTL = new Guna.UI2.WinForms.Guna2Button();
-            this.btnPV = new Guna.UI2.WinForms.Guna2Button();
-            this.btnCJ = new Guna.UI2.WinForms.Guna2Button();
-            this.btnNM = new Guna.UI2.WinForms.Guna2Button();
-            this.btnNF = new Guna.UI2.WinForms.Guna2Button();
-            this.btnNG = new Guna.UI2.WinForms.Guna2Button();
-            this.btnMT = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGC = new Guna.UI2.WinForms.Guna2Button();
-            this.btnGP = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.spiner1 = new MetroFramework.Controls.MetroProgressSpinner();
-            this.sd = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.spiner2 = new MetroFramework.Controls.MetroProgressSpinner();
-            this.grdPublicaciones = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.Versión = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.icod_version = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mmenuVersiones = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
-            this.nuevoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
-            this.Equipos = new System.Windows.Forms.TabPage();
-            this.Versiones = new System.Windows.Forms.TabPage();
-            this.btnUl = new Guna.UI2.WinForms.Guna2Button();
-            ((System.ComponentModel.ISupportInitialize)(this.grdLista)).BeginInit();
-            this.mmenuEquipos.SuspendLayout();
-            this.guna2GroupBox1.SuspendLayout();
-            this.guna2GroupBox2.SuspendLayout();
-            this.sd.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdPublicaciones)).BeginInit();
-            this.mmenuVersiones.SuspendLayout();
-            this.guna2TabControl1.SuspendLayout();
-            this.Equipos.SuspendLayout();
-            this.Versiones.SuspendLayout();
-            this.SuspendLayout();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            grdLista = new Guna.UI2.WinForms.Guna2DataGridView();
+            Nombre = new DataGridViewTextBoxColumn();
+            CPU = new DataGridViewTextBoxColumn();
+            Permiso = new DataGridViewCheckBoxColumn();
+            ceq_icod_equipo = new DataGridViewTextBoxColumn();
+            cvr_icod_version = new DataGridViewTextBoxColumn();
+            ceq_sfecha_actualizacion = new DataGridViewTextBoxColumn();
+            cvr_vversion = new DataGridViewTextBoxColumn();
+            cvr_sfecha_version = new DataGridViewTextBoxColumn();
+            cep_vubicacion_actualizador = new DataGridViewTextBoxColumn();
+            cvr_vurl = new DataGridViewTextBoxColumn();
+            ceq_vnombre_usuario = new DataGridViewTextBoxColumn();
+            mmenuEquipos = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            darAccesoToolStripMenuItem = new ToolStripMenuItem();
+            modificarToolStripMenuItem1 = new ToolStripMenuItem();
+            guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            btnMS = new Guna.UI2.WinForms.Guna2Button();
+            btnUl = new Guna.UI2.WinForms.Guna2Button();
+            btnTL = new Guna.UI2.WinForms.Guna2Button();
+            btnPV = new Guna.UI2.WinForms.Guna2Button();
+            btnCJ = new Guna.UI2.WinForms.Guna2Button();
+            btnNM = new Guna.UI2.WinForms.Guna2Button();
+            btnNF = new Guna.UI2.WinForms.Guna2Button();
+            btnNG = new Guna.UI2.WinForms.Guna2Button();
+            btnMT = new Guna.UI2.WinForms.Guna2Button();
+            btnGC = new Guna.UI2.WinForms.Guna2Button();
+            btnGP = new Guna.UI2.WinForms.Guna2Button();
+            guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
+            spiner1 = new MetroFramework.Controls.MetroProgressSpinner();
+            sd = new Guna.UI2.WinForms.Guna2GroupBox();
+            spiner2 = new MetroFramework.Controls.MetroProgressSpinner();
+            grdPublicaciones = new Guna.UI2.WinForms.Guna2DataGridView();
+            Versión = new DataGridViewTextBoxColumn();
+            Fecha = new DataGridViewTextBoxColumn();
+            dataGridViewTextBoxColumn1 = new DataGridViewTextBoxColumn();
+            icod_version = new DataGridViewTextBoxColumn();
+            mmenuVersiones = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            nuevoToolStripMenuItem = new ToolStripMenuItem();
+            modificarToolStripMenuItem = new ToolStripMenuItem();
+            guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
+            Equipos = new TabPage();
+            Versiones = new TabPage();
+            ((System.ComponentModel.ISupportInitialize)grdLista).BeginInit();
+            mmenuEquipos.SuspendLayout();
+            guna2GroupBox1.SuspendLayout();
+            guna2GroupBox2.SuspendLayout();
+            sd.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grdPublicaciones).BeginInit();
+            mmenuVersiones.SuspendLayout();
+            guna2TabControl1.SuspendLayout();
+            Equipos.SuspendLayout();
+            Versiones.SuspendLayout();
+            SuspendLayout();
             // 
             // grdLista
             // 
-            this.grdLista.AllowUserToAddRows = false;
-            this.grdLista.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.grdLista.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdLista.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.grdLista.ColumnHeadersHeight = 17;
-            this.grdLista.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdLista.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Nombre,
-            this.CPU,
-            this.Permiso,
-            this.ceq_icod_equipo,
-            this.cvr_icod_version,
-            this.ceq_sfecha_actualizacion,
-            this.cvr_vversion,
-            this.cvr_sfecha_version,
-            this.cep_vubicacion_actualizador,
-            this.cvr_vurl,
-            this.ceq_vnombre_usuario});
-            this.grdLista.ContextMenuStrip = this.mmenuEquipos;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdLista.DefaultCellStyle = dataGridViewCellStyle3;
-            this.grdLista.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdLista.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdLista.Location = new System.Drawing.Point(0, 40);
-            this.grdLista.Name = "grdLista";
-            this.grdLista.ReadOnly = true;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdLista.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.grdLista.RowHeadersVisible = false;
-            this.grdLista.RowTemplate.Height = 25;
-            this.grdLista.Size = new System.Drawing.Size(716, 396);
-            this.grdLista.TabIndex = 0;
-            this.grdLista.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdLista.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.grdLista.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.grdLista.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.grdLista.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.grdLista.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.grdLista.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdLista.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.grdLista.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.grdLista.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.grdLista.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.grdLista.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdLista.ThemeStyle.HeaderStyle.Height = 17;
-            this.grdLista.ThemeStyle.ReadOnly = true;
-            this.grdLista.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdLista.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.grdLista.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.grdLista.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.grdLista.ThemeStyle.RowsStyle.Height = 25;
-            this.grdLista.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdLista.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.grdLista.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdLista_CellContentClick);
+            grdLista.AllowUserToAddRows = false;
+            grdLista.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            grdLista.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            grdLista.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            grdLista.ColumnHeadersHeight = 17;
+            grdLista.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdLista.Columns.AddRange(new DataGridViewColumn[] { Nombre, CPU, Permiso, ceq_icod_equipo, cvr_icod_version, ceq_sfecha_actualizacion, cvr_vversion, cvr_sfecha_version, cep_vubicacion_actualizador, cvr_vurl, ceq_vnombre_usuario });
+            grdLista.ContextMenuStrip = mmenuEquipos;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            grdLista.DefaultCellStyle = dataGridViewCellStyle3;
+            grdLista.Dock = DockStyle.Fill;
+            grdLista.GridColor = Color.FromArgb(231, 229, 255);
+            grdLista.Location = new Point(0, 40);
+            grdLista.Name = "grdLista";
+            grdLista.ReadOnly = true;
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = SystemColors.Control;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            grdLista.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            grdLista.RowHeadersVisible = false;
+            grdLista.RowTemplate.Height = 25;
+            grdLista.Size = new Size(716, 449);
+            grdLista.TabIndex = 0;
+            grdLista.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            grdLista.ThemeStyle.AlternatingRowsStyle.Font = null;
+            grdLista.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            grdLista.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            grdLista.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            grdLista.ThemeStyle.BackColor = Color.White;
+            grdLista.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            grdLista.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            grdLista.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            grdLista.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdLista.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            grdLista.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdLista.ThemeStyle.HeaderStyle.Height = 17;
+            grdLista.ThemeStyle.ReadOnly = true;
+            grdLista.ThemeStyle.RowsStyle.BackColor = Color.White;
+            grdLista.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            grdLista.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdLista.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(125, 137, 149);
+            grdLista.ThemeStyle.RowsStyle.Height = 25;
+            grdLista.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            grdLista.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            grdLista.CellContentClick += grdLista_CellContentClick;
             // 
             // Nombre
             // 
-            this.Nombre.DataPropertyName = "ceq_vnombre_equipo";
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
+            Nombre.DataPropertyName = "ceq_vnombre_equipo";
+            Nombre.HeaderText = "Nombre";
+            Nombre.Name = "Nombre";
+            Nombre.ReadOnly = true;
             // 
             // CPU
             // 
-            this.CPU.DataPropertyName = "cep_vid_cpu";
-            this.CPU.HeaderText = "CPU";
-            this.CPU.Name = "CPU";
-            this.CPU.ReadOnly = true;
+            CPU.DataPropertyName = "cep_vid_cpu";
+            CPU.HeaderText = "CPU";
+            CPU.Name = "CPU";
+            CPU.ReadOnly = true;
             // 
             // Permiso
             // 
-            this.Permiso.DataPropertyName = "cep_bflag_acceso";
-            this.Permiso.HeaderText = "Permiso";
-            this.Permiso.Name = "Permiso";
-            this.Permiso.ReadOnly = true;
-            this.Permiso.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            this.Permiso.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            Permiso.DataPropertyName = "cep_bflag_acceso";
+            Permiso.HeaderText = "Permiso";
+            Permiso.Name = "Permiso";
+            Permiso.ReadOnly = true;
+            Permiso.Resizable = DataGridViewTriState.False;
+            Permiso.SortMode = DataGridViewColumnSortMode.Automatic;
             // 
             // ceq_icod_equipo
             // 
-            this.ceq_icod_equipo.DataPropertyName = "ceq_icod_equipo";
-            this.ceq_icod_equipo.HeaderText = "ceq_icod_equipo";
-            this.ceq_icod_equipo.Name = "ceq_icod_equipo";
-            this.ceq_icod_equipo.ReadOnly = true;
-            this.ceq_icod_equipo.Visible = false;
+            ceq_icod_equipo.DataPropertyName = "ceq_icod_equipo";
+            ceq_icod_equipo.HeaderText = "ceq_icod_equipo";
+            ceq_icod_equipo.Name = "ceq_icod_equipo";
+            ceq_icod_equipo.ReadOnly = true;
+            ceq_icod_equipo.Visible = false;
             // 
             // cvr_icod_version
             // 
-            this.cvr_icod_version.DataPropertyName = "cvr_icod_version";
-            this.cvr_icod_version.HeaderText = "cvr_icod_version";
-            this.cvr_icod_version.Name = "cvr_icod_version";
-            this.cvr_icod_version.ReadOnly = true;
-            this.cvr_icod_version.Visible = false;
+            cvr_icod_version.DataPropertyName = "cvr_icod_version";
+            cvr_icod_version.HeaderText = "cvr_icod_version";
+            cvr_icod_version.Name = "cvr_icod_version";
+            cvr_icod_version.ReadOnly = true;
+            cvr_icod_version.Visible = false;
             // 
             // ceq_sfecha_actualizacion
             // 
-            this.ceq_sfecha_actualizacion.DataPropertyName = "ceq_sfecha_actualizacion";
-            this.ceq_sfecha_actualizacion.HeaderText = "ceq_sfecha_actualizacion";
-            this.ceq_sfecha_actualizacion.Name = "ceq_sfecha_actualizacion";
-            this.ceq_sfecha_actualizacion.ReadOnly = true;
-            this.ceq_sfecha_actualizacion.Visible = false;
+            ceq_sfecha_actualizacion.DataPropertyName = "ceq_sfecha_actualizacion";
+            ceq_sfecha_actualizacion.HeaderText = "ceq_sfecha_actualizacion";
+            ceq_sfecha_actualizacion.Name = "ceq_sfecha_actualizacion";
+            ceq_sfecha_actualizacion.ReadOnly = true;
+            ceq_sfecha_actualizacion.Visible = false;
             // 
             // cvr_vversion
             // 
-            this.cvr_vversion.DataPropertyName = "cvr_vversion";
-            this.cvr_vversion.HeaderText = "cvr_vversion";
-            this.cvr_vversion.Name = "cvr_vversion";
-            this.cvr_vversion.ReadOnly = true;
-            this.cvr_vversion.Visible = false;
+            cvr_vversion.DataPropertyName = "cvr_vversion";
+            cvr_vversion.HeaderText = "cvr_vversion";
+            cvr_vversion.Name = "cvr_vversion";
+            cvr_vversion.ReadOnly = true;
+            cvr_vversion.Visible = false;
             // 
             // cvr_sfecha_version
             // 
-            this.cvr_sfecha_version.DataPropertyName = "cvr_sfecha_version";
-            this.cvr_sfecha_version.HeaderText = "cvr_sfecha_version";
-            this.cvr_sfecha_version.Name = "cvr_sfecha_version";
-            this.cvr_sfecha_version.ReadOnly = true;
-            this.cvr_sfecha_version.Visible = false;
+            cvr_sfecha_version.DataPropertyName = "cvr_sfecha_version";
+            cvr_sfecha_version.HeaderText = "cvr_sfecha_version";
+            cvr_sfecha_version.Name = "cvr_sfecha_version";
+            cvr_sfecha_version.ReadOnly = true;
+            cvr_sfecha_version.Visible = false;
             // 
             // cep_vubicacion_actualizador
             // 
-            this.cep_vubicacion_actualizador.DataPropertyName = "cep_vubicacion_actualizador";
-            this.cep_vubicacion_actualizador.HeaderText = "cep_vubicacion_actualizador";
-            this.cep_vubicacion_actualizador.Name = "cep_vubicacion_actualizador";
-            this.cep_vubicacion_actualizador.ReadOnly = true;
-            this.cep_vubicacion_actualizador.Visible = false;
+            cep_vubicacion_actualizador.DataPropertyName = "cep_vubicacion_actualizador";
+            cep_vubicacion_actualizador.HeaderText = "cep_vubicacion_actualizador";
+            cep_vubicacion_actualizador.Name = "cep_vubicacion_actualizador";
+            cep_vubicacion_actualizador.ReadOnly = true;
+            cep_vubicacion_actualizador.Visible = false;
             // 
             // cvr_vurl
             // 
-            this.cvr_vurl.DataPropertyName = "cvr_vurl";
-            this.cvr_vurl.HeaderText = "cvr_vurl";
-            this.cvr_vurl.Name = "cvr_vurl";
-            this.cvr_vurl.ReadOnly = true;
-            this.cvr_vurl.Visible = false;
+            cvr_vurl.DataPropertyName = "cvr_vurl";
+            cvr_vurl.HeaderText = "cvr_vurl";
+            cvr_vurl.Name = "cvr_vurl";
+            cvr_vurl.ReadOnly = true;
+            cvr_vurl.Visible = false;
             // 
             // ceq_vnombre_usuario
             // 
-            this.ceq_vnombre_usuario.DataPropertyName = "ceq_vnombre_usuario";
-            this.ceq_vnombre_usuario.HeaderText = "Usuario";
-            this.ceq_vnombre_usuario.Name = "ceq_vnombre_usuario";
-            this.ceq_vnombre_usuario.ReadOnly = true;
+            ceq_vnombre_usuario.DataPropertyName = "ceq_vnombre_usuario";
+            ceq_vnombre_usuario.HeaderText = "Usuario";
+            ceq_vnombre_usuario.Name = "ceq_vnombre_usuario";
+            ceq_vnombre_usuario.ReadOnly = true;
             // 
             // mmenuEquipos
             // 
-            this.mmenuEquipos.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.darAccesoToolStripMenuItem,
-            this.modificarToolStripMenuItem1});
-            this.mmenuEquipos.Name = "guna2ContextMenuStrip1";
-            this.mmenuEquipos.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.mmenuEquipos.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
-            this.mmenuEquipos.RenderStyle.ColorTable = null;
-            this.mmenuEquipos.RenderStyle.RoundedEdges = true;
-            this.mmenuEquipos.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
-            this.mmenuEquipos.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.mmenuEquipos.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.mmenuEquipos.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
-            this.mmenuEquipos.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.mmenuEquipos.Size = new System.Drawing.Size(134, 48);
+            mmenuEquipos.Items.AddRange(new ToolStripItem[] { darAccesoToolStripMenuItem, modificarToolStripMenuItem1 });
+            mmenuEquipos.Name = "guna2ContextMenuStrip1";
+            mmenuEquipos.RenderStyle.ArrowColor = Color.FromArgb(151, 143, 255);
+            mmenuEquipos.RenderStyle.BorderColor = Color.Gainsboro;
+            mmenuEquipos.RenderStyle.ColorTable = null;
+            mmenuEquipos.RenderStyle.RoundedEdges = true;
+            mmenuEquipos.RenderStyle.SelectionArrowColor = Color.White;
+            mmenuEquipos.RenderStyle.SelectionBackColor = Color.FromArgb(100, 88, 255);
+            mmenuEquipos.RenderStyle.SelectionForeColor = Color.White;
+            mmenuEquipos.RenderStyle.SeparatorColor = Color.Gainsboro;
+            mmenuEquipos.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            mmenuEquipos.Size = new Size(134, 48);
             // 
             // darAccesoToolStripMenuItem
             // 
-            this.darAccesoToolStripMenuItem.Image = global::SGE.ControlEquipos.Properties.Resources.doc_check;
-            this.darAccesoToolStripMenuItem.Name = "darAccesoToolStripMenuItem";
-            this.darAccesoToolStripMenuItem.Size = new System.Drawing.Size(133, 22);
-            this.darAccesoToolStripMenuItem.Text = "Dar Acceso";
-            this.darAccesoToolStripMenuItem.Click += new System.EventHandler(this.darAccesoToolStripMenuItem_Click);
+            darAccesoToolStripMenuItem.Image = Properties.Resources.doc_check;
+            darAccesoToolStripMenuItem.Name = "darAccesoToolStripMenuItem";
+            darAccesoToolStripMenuItem.Size = new Size(133, 22);
+            darAccesoToolStripMenuItem.Text = "Dar Acceso";
+            darAccesoToolStripMenuItem.Click += darAccesoToolStripMenuItem_Click;
             // 
             // modificarToolStripMenuItem1
             // 
-            this.modificarToolStripMenuItem1.Image = global::SGE.ControlEquipos.Properties.Resources.CuentaBancaria_16x16;
-            this.modificarToolStripMenuItem1.Name = "modificarToolStripMenuItem1";
-            this.modificarToolStripMenuItem1.Size = new System.Drawing.Size(133, 22);
-            this.modificarToolStripMenuItem1.Text = "Modificar";
-            this.modificarToolStripMenuItem1.Click += new System.EventHandler(this.modificarToolStripMenuItem1_Click);
+            modificarToolStripMenuItem1.Image = Properties.Resources.CuentaBancaria_16x16;
+            modificarToolStripMenuItem1.Name = "modificarToolStripMenuItem1";
+            modificarToolStripMenuItem1.Size = new Size(133, 22);
+            modificarToolStripMenuItem1.Text = "Modificar";
+            modificarToolStripMenuItem1.Click += modificarToolStripMenuItem1_Click;
             // 
             // guna2GroupBox1
             // 
-            this.guna2GroupBox1.Controls.Add(this.btnUl);
-            this.guna2GroupBox1.Controls.Add(this.btnTL);
-            this.guna2GroupBox1.Controls.Add(this.btnPV);
-            this.guna2GroupBox1.Controls.Add(this.btnCJ);
-            this.guna2GroupBox1.Controls.Add(this.btnNM);
-            this.guna2GroupBox1.Controls.Add(this.btnNF);
-            this.guna2GroupBox1.Controls.Add(this.btnNG);
-            this.guna2GroupBox1.Controls.Add(this.btnMT);
-            this.guna2GroupBox1.Controls.Add(this.btnGC);
-            this.guna2GroupBox1.Controls.Add(this.btnGP);
-            this.guna2GroupBox1.CustomizableEdges = customizableEdges21;
-            this.guna2GroupBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(20, 60);
-            this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(213, 490);
-            this.guna2GroupBox1.TabIndex = 1;
-            this.guna2GroupBox1.Text = "Empresas";
-            this.guna2GroupBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            guna2GroupBox1.Controls.Add(btnMS);
+            guna2GroupBox1.Controls.Add(btnUl);
+            guna2GroupBox1.Controls.Add(btnTL);
+            guna2GroupBox1.Controls.Add(btnPV);
+            guna2GroupBox1.Controls.Add(btnCJ);
+            guna2GroupBox1.Controls.Add(btnNM);
+            guna2GroupBox1.Controls.Add(btnNF);
+            guna2GroupBox1.Controls.Add(btnNG);
+            guna2GroupBox1.Controls.Add(btnMT);
+            guna2GroupBox1.Controls.Add(btnGC);
+            guna2GroupBox1.Controls.Add(btnGP);
+            guna2GroupBox1.CustomizableEdges = customizableEdges23;
+            guna2GroupBox1.Dock = DockStyle.Left;
+            guna2GroupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2GroupBox1.ForeColor = Color.FromArgb(125, 137, 149);
+            guna2GroupBox1.Location = new Point(20, 60);
+            guna2GroupBox1.Name = "guna2GroupBox1";
+            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            guna2GroupBox1.Size = new Size(213, 543);
+            guna2GroupBox1.TabIndex = 1;
+            guna2GroupBox1.Text = "Empresas";
+            guna2GroupBox1.TextAlign = HorizontalAlignment.Center;
             // 
-            // btnTL
+            // btnMS
             // 
-            this.btnTL.Animated = true;
-            this.btnTL.AnimatedGIF = true;
-            this.btnTL.CustomizableEdges = customizableEdges3;
-            this.btnTL.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnTL.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnTL.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnTL.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnTL.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnTL.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnTL.ForeColor = System.Drawing.Color.White;
-            this.btnTL.Location = new System.Drawing.Point(0, 400);
-            this.btnTL.Name = "btnTL";
-            this.btnTL.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.btnTL.Size = new System.Drawing.Size(213, 45);
-            this.btnTL.TabIndex = 8;
-            this.btnTL.Text = "Telas Lima";
-            this.btnTL.Click += new System.EventHandler(this.btnTL_Click);
-            // 
-            // btnPV
-            // 
-            this.btnPV.Animated = true;
-            this.btnPV.AnimatedGIF = true;
-            this.btnPV.CustomizableEdges = customizableEdges5;
-            this.btnPV.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnPV.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnPV.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnPV.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnPV.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPV.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnPV.ForeColor = System.Drawing.Color.White;
-            this.btnPV.Location = new System.Drawing.Point(0, 355);
-            this.btnPV.Name = "btnPV";
-            this.btnPV.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            this.btnPV.Size = new System.Drawing.Size(213, 45);
-            this.btnPV.TabIndex = 7;
-            this.btnPV.Text = "Prados Verdes";
-            this.btnPV.Click += new System.EventHandler(this.btnPV_Click);
-            // 
-            // btnCJ
-            // 
-            this.btnCJ.Animated = true;
-            this.btnCJ.AnimatedGIF = true;
-            this.btnCJ.CustomizableEdges = customizableEdges7;
-            this.btnCJ.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnCJ.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnCJ.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnCJ.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnCJ.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnCJ.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnCJ.ForeColor = System.Drawing.Color.White;
-            this.btnCJ.Location = new System.Drawing.Point(0, 310);
-            this.btnCJ.Name = "btnCJ";
-            this.btnCJ.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            this.btnCJ.Size = new System.Drawing.Size(213, 45);
-            this.btnCJ.TabIndex = 6;
-            this.btnCJ.Text = "Calzados Jaguar";
-            this.btnCJ.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // btnNM
-            // 
-            this.btnNM.Animated = true;
-            this.btnNM.AnimatedGIF = true;
-            this.btnNM.CustomizableEdges = customizableEdges9;
-            this.btnNM.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnNM.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnNM.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnNM.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnNM.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnNM.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNM.ForeColor = System.Drawing.Color.White;
-            this.btnNM.Location = new System.Drawing.Point(0, 265);
-            this.btnNM.Name = "btnNM";
-            this.btnNM.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            this.btnNM.Size = new System.Drawing.Size(213, 45);
-            this.btnNM.TabIndex = 5;
-            this.btnNM.Text = "Nova Motos";
-            this.btnNM.Click += new System.EventHandler(this.btnNM_Click);
-            // 
-            // btnNF
-            // 
-            this.btnNF.Animated = true;
-            this.btnNF.AnimatedGIF = true;
-            this.btnNF.CustomizableEdges = customizableEdges11;
-            this.btnNF.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnNF.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnNF.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnNF.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnNF.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnNF.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNF.ForeColor = System.Drawing.Color.White;
-            this.btnNF.Location = new System.Drawing.Point(0, 220);
-            this.btnNF.Name = "btnNF";
-            this.btnNF.ShadowDecoration.CustomizableEdges = customizableEdges12;
-            this.btnNF.Size = new System.Drawing.Size(213, 45);
-            this.btnNF.TabIndex = 4;
-            this.btnNF.Text = "Nova Flat";
-            this.btnNF.Click += new System.EventHandler(this.btnNF_Click);
-            // 
-            // btnNG
-            // 
-            this.btnNG.Animated = true;
-            this.btnNG.AnimatedGIF = true;
-            this.btnNG.CustomizableEdges = customizableEdges13;
-            this.btnNG.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnNG.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnNG.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnNG.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnNG.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnNG.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNG.ForeColor = System.Drawing.Color.White;
-            this.btnNG.Location = new System.Drawing.Point(0, 175);
-            this.btnNG.Name = "btnNG";
-            this.btnNG.ShadowDecoration.CustomizableEdges = customizableEdges14;
-            this.btnNG.Size = new System.Drawing.Size(213, 45);
-            this.btnNG.TabIndex = 3;
-            this.btnNG.Text = "Nova Glass";
-            this.btnNG.Click += new System.EventHandler(this.btnNG_Click);
-            // 
-            // btnMT
-            // 
-            this.btnMT.Animated = true;
-            this.btnMT.AnimatedGIF = true;
-            this.btnMT.CustomizableEdges = customizableEdges15;
-            this.btnMT.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnMT.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnMT.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnMT.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnMT.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnMT.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnMT.ForeColor = System.Drawing.Color.White;
-            this.btnMT.Location = new System.Drawing.Point(0, 130);
-            this.btnMT.Name = "btnMT";
-            this.btnMT.ShadowDecoration.CustomizableEdges = customizableEdges16;
-            this.btnMT.Size = new System.Drawing.Size(213, 45);
-            this.btnMT.TabIndex = 2;
-            this.btnMT.Text = "Moto Torque";
-            this.btnMT.Click += new System.EventHandler(this.btnMT_Click);
-            // 
-            // btnGC
-            // 
-            this.btnGC.Animated = true;
-            this.btnGC.AnimatedGIF = true;
-            this.btnGC.CustomizableEdges = customizableEdges17;
-            this.btnGC.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGC.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGC.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGC.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGC.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnGC.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnGC.ForeColor = System.Drawing.Color.White;
-            this.btnGC.Location = new System.Drawing.Point(0, 85);
-            this.btnGC.Name = "btnGC";
-            this.btnGC.ShadowDecoration.CustomizableEdges = customizableEdges18;
-            this.btnGC.Size = new System.Drawing.Size(213, 45);
-            this.btnGC.TabIndex = 1;
-            this.btnGC.Text = "Galy Company";
-            this.btnGC.Click += new System.EventHandler(this.btnGC_Click);
-            // 
-            // btnGP
-            // 
-            this.btnGP.Animated = true;
-            this.btnGP.AnimatedGIF = true;
-            this.btnGP.CustomizableEdges = customizableEdges19;
-            this.btnGP.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnGP.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnGP.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnGP.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnGP.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnGP.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnGP.ForeColor = System.Drawing.Color.White;
-            this.btnGP.Location = new System.Drawing.Point(0, 40);
-            this.btnGP.Name = "btnGP";
-            this.btnGP.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            this.btnGP.Size = new System.Drawing.Size(213, 45);
-            this.btnGP.TabIndex = 0;
-            this.btnGP.Text = "Green Perú";
-            this.btnGP.Click += new System.EventHandler(this.btnGP_Click);
-            // 
-            // guna2GroupBox2
-            // 
-            this.guna2GroupBox2.Controls.Add(this.spiner1);
-            this.guna2GroupBox2.Controls.Add(this.grdLista);
-            this.guna2GroupBox2.CustomizableEdges = customizableEdges23;
-            this.guna2GroupBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2GroupBox2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2GroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2GroupBox2.Location = new System.Drawing.Point(3, 3);
-            this.guna2GroupBox2.Name = "guna2GroupBox2";
-            this.guna2GroupBox2.ShadowDecoration.CustomizableEdges = customizableEdges24;
-            this.guna2GroupBox2.Size = new System.Drawing.Size(716, 436);
-            this.guna2GroupBox2.TabIndex = 2;
-            this.guna2GroupBox2.Text = "Equipos";
-            this.guna2GroupBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // spiner1
-            // 
-            this.spiner1.Location = new System.Drawing.Point(306, 118);
-            this.spiner1.Maximum = 100;
-            this.spiner1.Name = "spiner1";
-            this.spiner1.Size = new System.Drawing.Size(100, 100);
-            this.spiner1.Style = MetroFramework.MetroColorStyle.Green;
-            this.spiner1.TabIndex = 1;
-            this.spiner1.Text = "metroProgressSpinner1";
-            this.spiner1.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.spiner1.UseSelectable = true;
-            this.spiner1.Value = 10;
-            // 
-            // sd
-            // 
-            this.sd.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
-            this.sd.Controls.Add(this.spiner2);
-            this.sd.Controls.Add(this.grdPublicaciones);
-            this.sd.CustomizableEdges = customizableEdges25;
-            this.sd.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.sd.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.sd.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.sd.Location = new System.Drawing.Point(3, 3);
-            this.sd.Name = "sd";
-            this.sd.ShadowDecoration.CustomizableEdges = customizableEdges26;
-            this.sd.Size = new System.Drawing.Size(716, 392);
-            this.sd.TabIndex = 3;
-            this.sd.Text = "Publicaciones";
-            this.sd.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // spiner2
-            // 
-            this.spiner2.Location = new System.Drawing.Point(297, 99);
-            this.spiner2.Maximum = 100;
-            this.spiner2.Name = "spiner2";
-            this.spiner2.Size = new System.Drawing.Size(100, 100);
-            this.spiner2.Style = MetroFramework.MetroColorStyle.Green;
-            this.spiner2.TabIndex = 2;
-            this.spiner2.Text = "metroProgressSpinner2";
-            this.spiner2.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.spiner2.UseSelectable = true;
-            this.spiner2.Value = 10;
-            // 
-            // grdPublicaciones
-            // 
-            this.grdPublicaciones.AllowUserToAddRows = false;
-            this.grdPublicaciones.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            this.grdPublicaciones.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
-            this.grdPublicaciones.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.IndianRed;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdPublicaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.grdPublicaciones.ColumnHeadersHeight = 17;
-            this.grdPublicaciones.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdPublicaciones.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Versión,
-            this.Fecha,
-            this.dataGridViewTextBoxColumn1,
-            this.icod_version});
-            this.grdPublicaciones.ContextMenuStrip = this.mmenuVersiones;
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdPublicaciones.DefaultCellStyle = dataGridViewCellStyle7;
-            this.grdPublicaciones.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdPublicaciones.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdPublicaciones.Location = new System.Drawing.Point(0, 40);
-            this.grdPublicaciones.Name = "grdPublicaciones";
-            this.grdPublicaciones.ReadOnly = true;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdPublicaciones.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.grdPublicaciones.RowHeadersVisible = false;
-            this.grdPublicaciones.RowTemplate.Height = 25;
-            this.grdPublicaciones.Size = new System.Drawing.Size(716, 352);
-            this.grdPublicaciones.TabIndex = 0;
-            this.grdPublicaciones.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdPublicaciones.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.grdPublicaciones.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.grdPublicaciones.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.grdPublicaciones.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.grdPublicaciones.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.grdPublicaciones.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdPublicaciones.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.grdPublicaciones.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.grdPublicaciones.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.grdPublicaciones.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.grdPublicaciones.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdPublicaciones.ThemeStyle.HeaderStyle.Height = 17;
-            this.grdPublicaciones.ThemeStyle.ReadOnly = true;
-            this.grdPublicaciones.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdPublicaciones.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.grdPublicaciones.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.grdPublicaciones.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.grdPublicaciones.ThemeStyle.RowsStyle.Height = 25;
-            this.grdPublicaciones.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdPublicaciones.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // Versión
-            // 
-            this.Versión.DataPropertyName = "cvr_vversion";
-            this.Versión.FillWeight = 83.79895F;
-            this.Versión.HeaderText = "Versión";
-            this.Versión.Name = "Versión";
-            this.Versión.ReadOnly = true;
-            this.Versión.Width = 300;
-            // 
-            // Fecha
-            // 
-            this.Fecha.DataPropertyName = "cvr_sfecha_version";
-            this.Fecha.FillWeight = 216.2013F;
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
-            this.Fecha.ReadOnly = true;
-            this.Fecha.Width = 200;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "cvr_vurl";
-            this.dataGridViewTextBoxColumn1.HeaderText = "cvr_vurl";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            this.dataGridViewTextBoxColumn1.Visible = false;
-            this.dataGridViewTextBoxColumn1.Width = 150;
-            // 
-            // icod_version
-            // 
-            this.icod_version.DataPropertyName = "cvr_icod_version";
-            this.icod_version.HeaderText = "cvr_icod_version";
-            this.icod_version.Name = "icod_version";
-            this.icod_version.ReadOnly = true;
-            this.icod_version.Visible = false;
-            this.icod_version.Width = 5;
-            // 
-            // mmenuVersiones
-            // 
-            this.mmenuVersiones.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevoToolStripMenuItem,
-            this.modificarToolStripMenuItem});
-            this.mmenuVersiones.Name = "mmenuVersiones";
-            this.mmenuVersiones.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.mmenuVersiones.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
-            this.mmenuVersiones.RenderStyle.ColorTable = null;
-            this.mmenuVersiones.RenderStyle.RoundedEdges = true;
-            this.mmenuVersiones.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
-            this.mmenuVersiones.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.mmenuVersiones.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.mmenuVersiones.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
-            this.mmenuVersiones.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.mmenuVersiones.Size = new System.Drawing.Size(126, 48);
-            // 
-            // nuevoToolStripMenuItem
-            // 
-            this.nuevoToolStripMenuItem.Image = global::SGE.ControlEquipos.Properties.Resources.bullet_add;
-            this.nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
-            this.nuevoToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.nuevoToolStripMenuItem.Text = "Nuevo";
-            this.nuevoToolStripMenuItem.Click += new System.EventHandler(this.nuevoToolStripMenuItem_Click);
-            // 
-            // modificarToolStripMenuItem
-            // 
-            this.modificarToolStripMenuItem.Image = global::SGE.ControlEquipos.Properties.Resources.CuentaBancaria_16x16;
-            this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.modificarToolStripMenuItem.Text = "Modificar";
-            this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
-            // 
-            // guna2TabControl1
-            // 
-            this.guna2TabControl1.Controls.Add(this.Equipos);
-            this.guna2TabControl1.Controls.Add(this.Versiones);
-            this.guna2TabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2TabControl1.ItemSize = new System.Drawing.Size(180, 40);
-            this.guna2TabControl1.Location = new System.Drawing.Point(233, 60);
-            this.guna2TabControl1.Name = "guna2TabControl1";
-            this.guna2TabControl1.SelectedIndex = 0;
-            this.guna2TabControl1.Size = new System.Drawing.Size(730, 490);
-            this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TabControl1.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2TabControl1.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.guna2TabControl1.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2TabControl1.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TabControl1.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.guna2TabControl1.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2TabControl1.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
-            this.guna2TabControl1.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TabControl1.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
-            this.guna2TabControl1.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
-            this.guna2TabControl1.TabButtonSize = new System.Drawing.Size(180, 40);
-            this.guna2TabControl1.TabIndex = 4;
-            this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
-            // 
-            // Equipos
-            // 
-            this.Equipos.Controls.Add(this.guna2GroupBox2);
-            this.Equipos.ForeColor = System.Drawing.Color.Coral;
-            this.Equipos.Location = new System.Drawing.Point(4, 44);
-            this.Equipos.Name = "Equipos";
-            this.Equipos.Padding = new System.Windows.Forms.Padding(3);
-            this.Equipos.Size = new System.Drawing.Size(722, 442);
-            this.Equipos.TabIndex = 0;
-            this.Equipos.Text = "Equipos";
-            this.Equipos.UseVisualStyleBackColor = true;
-            // 
-            // Versiones
-            // 
-            this.Versiones.Controls.Add(this.sd);
-            this.Versiones.Location = new System.Drawing.Point(4, 44);
-            this.Versiones.Name = "Versiones";
-            this.Versiones.Padding = new System.Windows.Forms.Padding(3);
-            this.Versiones.Size = new System.Drawing.Size(722, 398);
-            this.Versiones.TabIndex = 1;
-            this.Versiones.Text = "Versiones";
-            this.Versiones.UseVisualStyleBackColor = true;
+            btnMS.Animated = true;
+            btnMS.AnimatedGIF = true;
+            btnMS.CustomizableEdges = customizableEdges1;
+            btnMS.DisabledState.BorderColor = Color.DarkGray;
+            btnMS.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnMS.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnMS.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnMS.Dock = DockStyle.Top;
+            btnMS.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnMS.ForeColor = Color.White;
+            btnMS.Location = new Point(0, 490);
+            btnMS.Name = "btnMS";
+            btnMS.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnMS.Size = new Size(213, 45);
+            btnMS.TabIndex = 10;
+            btnMS.Text = "Multisistema";
+            btnMS.Click += btnMS_Click;
             // 
             // btnUl
             // 
-            this.btnUl.Animated = true;
-            this.btnUl.AnimatedGIF = true;
-            this.btnUl.CustomizableEdges = customizableEdges1;
-            this.btnUl.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnUl.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnUl.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnUl.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnUl.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnUl.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnUl.ForeColor = System.Drawing.Color.White;
-            this.btnUl.Location = new System.Drawing.Point(0, 445);
-            this.btnUl.Name = "btnUl";
-            this.btnUl.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.btnUl.Size = new System.Drawing.Size(213, 45);
-            this.btnUl.TabIndex = 9;
-            this.btnUl.Text = "Ulike";
-            this.btnUl.Click += new System.EventHandler(this.btnUl_Click);
+            btnUl.Animated = true;
+            btnUl.AnimatedGIF = true;
+            btnUl.CustomizableEdges = customizableEdges3;
+            btnUl.DisabledState.BorderColor = Color.DarkGray;
+            btnUl.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnUl.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnUl.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnUl.Dock = DockStyle.Top;
+            btnUl.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnUl.ForeColor = Color.White;
+            btnUl.Location = new Point(0, 445);
+            btnUl.Name = "btnUl";
+            btnUl.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnUl.Size = new Size(213, 45);
+            btnUl.TabIndex = 9;
+            btnUl.Text = "Ulike";
+            btnUl.Click += btnUl_Click;
+            // 
+            // btnTL
+            // 
+            btnTL.Animated = true;
+            btnTL.AnimatedGIF = true;
+            btnTL.CustomizableEdges = customizableEdges5;
+            btnTL.DisabledState.BorderColor = Color.DarkGray;
+            btnTL.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnTL.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnTL.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnTL.Dock = DockStyle.Top;
+            btnTL.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnTL.ForeColor = Color.White;
+            btnTL.Location = new Point(0, 400);
+            btnTL.Name = "btnTL";
+            btnTL.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnTL.Size = new Size(213, 45);
+            btnTL.TabIndex = 8;
+            btnTL.Text = "Telas Lima";
+            btnTL.Click += btnTL_Click;
+            // 
+            // btnPV
+            // 
+            btnPV.Animated = true;
+            btnPV.AnimatedGIF = true;
+            btnPV.CustomizableEdges = customizableEdges7;
+            btnPV.DisabledState.BorderColor = Color.DarkGray;
+            btnPV.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnPV.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnPV.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnPV.Dock = DockStyle.Top;
+            btnPV.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnPV.ForeColor = Color.White;
+            btnPV.Location = new Point(0, 355);
+            btnPV.Name = "btnPV";
+            btnPV.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnPV.Size = new Size(213, 45);
+            btnPV.TabIndex = 7;
+            btnPV.Text = "Prados Verdes";
+            btnPV.Click += btnPV_Click;
+            // 
+            // btnCJ
+            // 
+            btnCJ.Animated = true;
+            btnCJ.AnimatedGIF = true;
+            btnCJ.CustomizableEdges = customizableEdges9;
+            btnCJ.DisabledState.BorderColor = Color.DarkGray;
+            btnCJ.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnCJ.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnCJ.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnCJ.Dock = DockStyle.Top;
+            btnCJ.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnCJ.ForeColor = Color.White;
+            btnCJ.Location = new Point(0, 310);
+            btnCJ.Name = "btnCJ";
+            btnCJ.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnCJ.Size = new Size(213, 45);
+            btnCJ.TabIndex = 6;
+            btnCJ.Text = "Calzados Jaguar";
+            btnCJ.Click += guna2Button1_Click;
+            // 
+            // btnNM
+            // 
+            btnNM.Animated = true;
+            btnNM.AnimatedGIF = true;
+            btnNM.CustomizableEdges = customizableEdges11;
+            btnNM.DisabledState.BorderColor = Color.DarkGray;
+            btnNM.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnNM.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnNM.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnNM.Dock = DockStyle.Top;
+            btnNM.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnNM.ForeColor = Color.White;
+            btnNM.Location = new Point(0, 265);
+            btnNM.Name = "btnNM";
+            btnNM.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnNM.Size = new Size(213, 45);
+            btnNM.TabIndex = 5;
+            btnNM.Text = "Nova Motos";
+            btnNM.Click += btnNM_Click;
+            // 
+            // btnNF
+            // 
+            btnNF.Animated = true;
+            btnNF.AnimatedGIF = true;
+            btnNF.CustomizableEdges = customizableEdges13;
+            btnNF.DisabledState.BorderColor = Color.DarkGray;
+            btnNF.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnNF.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnNF.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnNF.Dock = DockStyle.Top;
+            btnNF.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnNF.ForeColor = Color.White;
+            btnNF.Location = new Point(0, 220);
+            btnNF.Name = "btnNF";
+            btnNF.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnNF.Size = new Size(213, 45);
+            btnNF.TabIndex = 4;
+            btnNF.Text = "Nova Flat";
+            btnNF.Click += btnNF_Click;
+            // 
+            // btnNG
+            // 
+            btnNG.Animated = true;
+            btnNG.AnimatedGIF = true;
+            btnNG.CustomizableEdges = customizableEdges15;
+            btnNG.DisabledState.BorderColor = Color.DarkGray;
+            btnNG.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnNG.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnNG.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnNG.Dock = DockStyle.Top;
+            btnNG.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnNG.ForeColor = Color.White;
+            btnNG.Location = new Point(0, 175);
+            btnNG.Name = "btnNG";
+            btnNG.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnNG.Size = new Size(213, 45);
+            btnNG.TabIndex = 3;
+            btnNG.Text = "Nova Glass";
+            btnNG.Click += btnNG_Click;
+            // 
+            // btnMT
+            // 
+            btnMT.Animated = true;
+            btnMT.AnimatedGIF = true;
+            btnMT.CustomizableEdges = customizableEdges17;
+            btnMT.DisabledState.BorderColor = Color.DarkGray;
+            btnMT.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnMT.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnMT.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnMT.Dock = DockStyle.Top;
+            btnMT.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnMT.ForeColor = Color.White;
+            btnMT.Location = new Point(0, 130);
+            btnMT.Name = "btnMT";
+            btnMT.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            btnMT.Size = new Size(213, 45);
+            btnMT.TabIndex = 2;
+            btnMT.Text = "Moto Torque";
+            btnMT.Click += btnMT_Click;
+            // 
+            // btnGC
+            // 
+            btnGC.Animated = true;
+            btnGC.AnimatedGIF = true;
+            btnGC.CustomizableEdges = customizableEdges19;
+            btnGC.DisabledState.BorderColor = Color.DarkGray;
+            btnGC.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnGC.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnGC.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnGC.Dock = DockStyle.Top;
+            btnGC.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnGC.ForeColor = Color.White;
+            btnGC.Location = new Point(0, 85);
+            btnGC.Name = "btnGC";
+            btnGC.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btnGC.Size = new Size(213, 45);
+            btnGC.TabIndex = 1;
+            btnGC.Text = "Galy Company";
+            btnGC.Click += btnGC_Click;
+            // 
+            // btnGP
+            // 
+            btnGP.Animated = true;
+            btnGP.AnimatedGIF = true;
+            btnGP.CustomizableEdges = customizableEdges21;
+            btnGP.DisabledState.BorderColor = Color.DarkGray;
+            btnGP.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnGP.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnGP.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnGP.Dock = DockStyle.Top;
+            btnGP.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnGP.ForeColor = Color.White;
+            btnGP.Location = new Point(0, 40);
+            btnGP.Name = "btnGP";
+            btnGP.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            btnGP.Size = new Size(213, 45);
+            btnGP.TabIndex = 0;
+            btnGP.Text = "Green Perú";
+            btnGP.Click += btnGP_Click;
+            // 
+            // guna2GroupBox2
+            // 
+            guna2GroupBox2.Controls.Add(spiner1);
+            guna2GroupBox2.Controls.Add(grdLista);
+            guna2GroupBox2.CustomizableEdges = customizableEdges25;
+            guna2GroupBox2.Dock = DockStyle.Fill;
+            guna2GroupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2GroupBox2.ForeColor = Color.FromArgb(125, 137, 149);
+            guna2GroupBox2.Location = new Point(3, 3);
+            guna2GroupBox2.Name = "guna2GroupBox2";
+            guna2GroupBox2.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            guna2GroupBox2.Size = new Size(716, 489);
+            guna2GroupBox2.TabIndex = 2;
+            guna2GroupBox2.Text = "Equipos";
+            guna2GroupBox2.TextAlign = HorizontalAlignment.Center;
+            // 
+            // spiner1
+            // 
+            spiner1.Location = new Point(306, 118);
+            spiner1.Maximum = 100;
+            spiner1.Name = "spiner1";
+            spiner1.Size = new Size(100, 100);
+            spiner1.Style = MetroFramework.MetroColorStyle.Green;
+            spiner1.TabIndex = 1;
+            spiner1.Text = "metroProgressSpinner1";
+            spiner1.Theme = MetroFramework.MetroThemeStyle.Light;
+            spiner1.UseSelectable = true;
+            spiner1.Value = 10;
+            // 
+            // sd
+            // 
+            sd.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
+            sd.Controls.Add(spiner2);
+            sd.Controls.Add(grdPublicaciones);
+            sd.CustomizableEdges = customizableEdges27;
+            sd.Dock = DockStyle.Fill;
+            sd.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            sd.ForeColor = Color.FromArgb(125, 137, 149);
+            sd.Location = new Point(3, 3);
+            sd.Name = "sd";
+            sd.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            sd.Size = new Size(716, 489);
+            sd.TabIndex = 3;
+            sd.Text = "Publicaciones";
+            sd.TextAlign = HorizontalAlignment.Center;
+            // 
+            // spiner2
+            // 
+            spiner2.Location = new Point(297, 99);
+            spiner2.Maximum = 100;
+            spiner2.Name = "spiner2";
+            spiner2.Size = new Size(100, 100);
+            spiner2.Style = MetroFramework.MetroColorStyle.Green;
+            spiner2.TabIndex = 2;
+            spiner2.Text = "metroProgressSpinner2";
+            spiner2.Theme = MetroFramework.MetroThemeStyle.Light;
+            spiner2.UseSelectable = true;
+            spiner2.Value = 10;
+            // 
+            // grdPublicaciones
+            // 
+            grdPublicaciones.AllowUserToAddRows = false;
+            grdPublicaciones.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle5.BackColor = Color.White;
+            grdPublicaciones.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle5;
+            grdPublicaciones.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.FromArgb(255, 128, 128);
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = Color.IndianRed;
+            dataGridViewCellStyle6.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.True;
+            grdPublicaciones.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            grdPublicaciones.ColumnHeadersHeight = 17;
+            grdPublicaciones.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdPublicaciones.Columns.AddRange(new DataGridViewColumn[] { Versión, Fecha, dataGridViewTextBoxColumn1, icod_version });
+            grdPublicaciones.ContextMenuStrip = mmenuVersiones;
+            dataGridViewCellStyle7.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle7.BackColor = Color.White;
+            dataGridViewCellStyle7.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle7.ForeColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle7.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle7.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle7.WrapMode = DataGridViewTriState.False;
+            grdPublicaciones.DefaultCellStyle = dataGridViewCellStyle7;
+            grdPublicaciones.Dock = DockStyle.Fill;
+            grdPublicaciones.GridColor = Color.FromArgb(231, 229, 255);
+            grdPublicaciones.Location = new Point(0, 40);
+            grdPublicaciones.Name = "grdPublicaciones";
+            grdPublicaciones.ReadOnly = true;
+            dataGridViewCellStyle8.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle8.BackColor = SystemColors.Control;
+            dataGridViewCellStyle8.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle8.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle8.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle8.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle8.WrapMode = DataGridViewTriState.True;
+            grdPublicaciones.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
+            grdPublicaciones.RowHeadersVisible = false;
+            grdPublicaciones.RowTemplate.Height = 25;
+            grdPublicaciones.Size = new Size(716, 449);
+            grdPublicaciones.TabIndex = 0;
+            grdPublicaciones.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            grdPublicaciones.ThemeStyle.AlternatingRowsStyle.Font = null;
+            grdPublicaciones.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            grdPublicaciones.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            grdPublicaciones.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            grdPublicaciones.ThemeStyle.BackColor = Color.White;
+            grdPublicaciones.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            grdPublicaciones.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            grdPublicaciones.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            grdPublicaciones.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdPublicaciones.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            grdPublicaciones.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdPublicaciones.ThemeStyle.HeaderStyle.Height = 17;
+            grdPublicaciones.ThemeStyle.ReadOnly = true;
+            grdPublicaciones.ThemeStyle.RowsStyle.BackColor = Color.White;
+            grdPublicaciones.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            grdPublicaciones.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdPublicaciones.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(125, 137, 149);
+            grdPublicaciones.ThemeStyle.RowsStyle.Height = 25;
+            grdPublicaciones.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            grdPublicaciones.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            // 
+            // Versión
+            // 
+            Versión.DataPropertyName = "cvr_vversion";
+            Versión.FillWeight = 83.79895F;
+            Versión.HeaderText = "Versión";
+            Versión.Name = "Versión";
+            Versión.ReadOnly = true;
+            Versión.Width = 300;
+            // 
+            // Fecha
+            // 
+            Fecha.DataPropertyName = "cvr_sfecha_version";
+            Fecha.FillWeight = 216.2013F;
+            Fecha.HeaderText = "Fecha";
+            Fecha.Name = "Fecha";
+            Fecha.ReadOnly = true;
+            Fecha.Width = 200;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            dataGridViewTextBoxColumn1.DataPropertyName = "cvr_vurl";
+            dataGridViewTextBoxColumn1.HeaderText = "cvr_vurl";
+            dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            dataGridViewTextBoxColumn1.ReadOnly = true;
+            dataGridViewTextBoxColumn1.Visible = false;
+            dataGridViewTextBoxColumn1.Width = 150;
+            // 
+            // icod_version
+            // 
+            icod_version.DataPropertyName = "cvr_icod_version";
+            icod_version.HeaderText = "cvr_icod_version";
+            icod_version.Name = "icod_version";
+            icod_version.ReadOnly = true;
+            icod_version.Visible = false;
+            icod_version.Width = 5;
+            // 
+            // mmenuVersiones
+            // 
+            mmenuVersiones.Items.AddRange(new ToolStripItem[] { nuevoToolStripMenuItem, modificarToolStripMenuItem });
+            mmenuVersiones.Name = "mmenuVersiones";
+            mmenuVersiones.RenderStyle.ArrowColor = Color.FromArgb(151, 143, 255);
+            mmenuVersiones.RenderStyle.BorderColor = Color.Gainsboro;
+            mmenuVersiones.RenderStyle.ColorTable = null;
+            mmenuVersiones.RenderStyle.RoundedEdges = true;
+            mmenuVersiones.RenderStyle.SelectionArrowColor = Color.White;
+            mmenuVersiones.RenderStyle.SelectionBackColor = Color.FromArgb(100, 88, 255);
+            mmenuVersiones.RenderStyle.SelectionForeColor = Color.White;
+            mmenuVersiones.RenderStyle.SeparatorColor = Color.Gainsboro;
+            mmenuVersiones.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            mmenuVersiones.Size = new Size(126, 48);
+            // 
+            // nuevoToolStripMenuItem
+            // 
+            nuevoToolStripMenuItem.Image = Properties.Resources.bullet_add;
+            nuevoToolStripMenuItem.Name = "nuevoToolStripMenuItem";
+            nuevoToolStripMenuItem.Size = new Size(125, 22);
+            nuevoToolStripMenuItem.Text = "Nuevo";
+            nuevoToolStripMenuItem.Click += nuevoToolStripMenuItem_Click;
+            // 
+            // modificarToolStripMenuItem
+            // 
+            modificarToolStripMenuItem.Image = Properties.Resources.CuentaBancaria_16x16;
+            modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
+            modificarToolStripMenuItem.Size = new Size(125, 22);
+            modificarToolStripMenuItem.Text = "Modificar";
+            modificarToolStripMenuItem.Click += modificarToolStripMenuItem_Click;
+            // 
+            // guna2TabControl1
+            // 
+            guna2TabControl1.Controls.Add(Equipos);
+            guna2TabControl1.Controls.Add(Versiones);
+            guna2TabControl1.Dock = DockStyle.Fill;
+            guna2TabControl1.ItemSize = new Size(180, 40);
+            guna2TabControl1.Location = new Point(233, 60);
+            guna2TabControl1.Name = "guna2TabControl1";
+            guna2TabControl1.SelectedIndex = 0;
+            guna2TabControl1.Size = new Size(730, 543);
+            guna2TabControl1.TabButtonHoverState.BorderColor = Color.Empty;
+            guna2TabControl1.TabButtonHoverState.FillColor = Color.FromArgb(40, 52, 70);
+            guna2TabControl1.TabButtonHoverState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2TabControl1.TabButtonHoverState.ForeColor = Color.White;
+            guna2TabControl1.TabButtonHoverState.InnerColor = Color.FromArgb(40, 52, 70);
+            guna2TabControl1.TabButtonIdleState.BorderColor = Color.Empty;
+            guna2TabControl1.TabButtonIdleState.FillColor = Color.FromArgb(33, 42, 57);
+            guna2TabControl1.TabButtonIdleState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2TabControl1.TabButtonIdleState.ForeColor = Color.FromArgb(156, 160, 167);
+            guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(33, 42, 57);
+            guna2TabControl1.TabButtonSelectedState.BorderColor = Color.Empty;
+            guna2TabControl1.TabButtonSelectedState.FillColor = Color.FromArgb(29, 37, 49);
+            guna2TabControl1.TabButtonSelectedState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2TabControl1.TabButtonSelectedState.ForeColor = Color.White;
+            guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(76, 132, 255);
+            guna2TabControl1.TabButtonSize = new Size(180, 40);
+            guna2TabControl1.TabIndex = 4;
+            guna2TabControl1.TabMenuBackColor = Color.FromArgb(33, 42, 57);
+            guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            // 
+            // Equipos
+            // 
+            Equipos.Controls.Add(guna2GroupBox2);
+            Equipos.ForeColor = Color.Coral;
+            Equipos.Location = new Point(4, 44);
+            Equipos.Name = "Equipos";
+            Equipos.Padding = new Padding(3);
+            Equipos.Size = new Size(722, 495);
+            Equipos.TabIndex = 0;
+            Equipos.Text = "Equipos";
+            Equipos.UseVisualStyleBackColor = true;
+            // 
+            // Versiones
+            // 
+            Versiones.Controls.Add(sd);
+            Versiones.Location = new Point(4, 44);
+            Versiones.Name = "Versiones";
+            Versiones.Padding = new Padding(3);
+            Versiones.Size = new Size(722, 495);
+            Versiones.TabIndex = 1;
+            Versiones.Text = "Versiones";
+            Versiones.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(983, 570);
-            this.Controls.Add(this.guna2TabControl1);
-            this.Controls.Add(this.guna2GroupBox1);
-            this.Name = "Form1";
-            this.Resizable = false;
-            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.grdLista)).EndInit();
-            this.mmenuEquipos.ResumeLayout(false);
-            this.guna2GroupBox1.ResumeLayout(false);
-            this.guna2GroupBox2.ResumeLayout(false);
-            this.sd.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grdPublicaciones)).EndInit();
-            this.mmenuVersiones.ResumeLayout(false);
-            this.guna2TabControl1.ResumeLayout(false);
-            this.Equipos.ResumeLayout(false);
-            this.Versiones.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(983, 623);
+            Controls.Add(guna2TabControl1);
+            Controls.Add(guna2GroupBox1);
+            Name = "Form1";
+            Resizable = false;
+            TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            Load += Form1_Load;
+            ((System.ComponentModel.ISupportInitialize)grdLista).EndInit();
+            mmenuEquipos.ResumeLayout(false);
+            guna2GroupBox1.ResumeLayout(false);
+            guna2GroupBox2.ResumeLayout(false);
+            sd.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grdPublicaciones).EndInit();
+            mmenuVersiones.ResumeLayout(false);
+            guna2TabControl1.ResumeLayout(false);
+            Equipos.ResumeLayout(false);
+            Versiones.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
@@ -854,5 +858,6 @@
         private Guna.UI2.WinForms.Guna2Button btnPV;
         private Guna.UI2.WinForms.Guna2Button btnTL;
         private Guna.UI2.WinForms.Guna2Button btnUl;
+        private Guna.UI2.WinForms.Guna2Button btnMS;
     }
 }

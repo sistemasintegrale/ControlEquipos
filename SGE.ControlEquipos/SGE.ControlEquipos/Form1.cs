@@ -36,6 +36,8 @@ namespace SGE.ControlEquipos
         private void btnPV_Click(object sender, EventArgs e) => Reload(Constantes.ConnPradosVerdes, btnPV);
         private void btnTL_Click(object sender, EventArgs e) => Reload(Constantes.ConnTelasLima, btnTL);
         private void btnUl_Click(object sender, EventArgs e) => Reload(Constantes.ConnUlike, btnUl);
+        private void btnMS_Click(object sender, EventArgs e) => Reload(Constantes.ConnMultisistema, btnMS);
+
         async void cargar()
         {
             spiner1.Visible = true;
@@ -167,5 +169,7 @@ namespace SGE.ControlEquipos
         }
 
         
+
+
     }
 }
