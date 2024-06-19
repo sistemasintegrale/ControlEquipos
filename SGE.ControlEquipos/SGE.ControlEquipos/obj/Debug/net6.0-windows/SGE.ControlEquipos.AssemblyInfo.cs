@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SGE.ControlEquipos")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a1443abf117510ec1eec5c2fb89742a88b08039d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13f34fef895e066a168aea0e522749ffed912cd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SGE.ControlEquipos")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SGE.ControlEquipos")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
