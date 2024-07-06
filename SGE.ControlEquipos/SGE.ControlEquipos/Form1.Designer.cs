@@ -343,7 +343,7 @@
             btnMS.ShadowDecoration.CustomizableEdges = customizableEdges2;
             btnMS.Size = new Size(213, 45);
             btnMS.TabIndex = 10;
-            btnMS.Text = "Multisistema";
+            btnMS.Text = "Multi Empresa";
             btnMS.Click += btnMS_Click;
             // 
             // btnUl

@@ -87,7 +87,7 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Ulike";
                     break;
                 case 11: // Multisistema
-                    strConexion = "Multisistema";
+                    strConexion = "Multi-Empresa";
                     break;
             }
             return strConexion;
