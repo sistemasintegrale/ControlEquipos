@@ -37,6 +37,7 @@ namespace SGE.ControlEquipos
         private void btnTL_Click(object sender, EventArgs e) => Reload(Constantes.ConnTelasLima, btnTL);
         private void btnUl_Click(object sender, EventArgs e) => Reload(Constantes.ConnUlike, btnUl);
         private void btnMS_Click(object sender, EventArgs e) => Reload(Constantes.ConnMultiEmpresa, btnMS);
+        private void btnJabsa_Click(object sender, EventArgs e) => Reload(Constantes.ConnJabsa, btnJabsa);
 
         async void cargar()
         {

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="SGE.ControlEquipos.exe" version="1.0.0.27" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="SGE.ControlEquipos.exe" version="1.0.0.28" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -548,13 +548,13 @@
       <dsig:DigestValue>7Ii0RGn7wi6TmYrDm9XdQizGHkAbsQtnJeZ42Ebu4TA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="SGE.ControlEquipos.dll" size="66560">
+  <file name="SGE.ControlEquipos.dll" size="67584">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>J9LY+KJ7qWAJWMBwmk8OfG7vjzJU2b4wAlpBD4jkZ70=</dsig:DigestValue>
+      <dsig:DigestValue>3FNLnLlBIpE/D7IFoJbgbvfFZ/NsGdtdmARMCpySnsk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SGE.ControlEquipos.exe" size="148992">
@@ -563,7 +563,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>1dqBk/9oI3+P8m5K6S8uvBFcMj4M/kTVqacEA/a6Riw=</dsig:DigestValue>
+      <dsig:DigestValue>hrn+dD9jM941AXLQZ7VDkZEq3i3Ho2fbCzl3MyKmh+Q=</dsig:DigestValue>
     </hash>
   </file>
   <file name="SGE.ControlEquipos.runtimeconfig.json" size="441">

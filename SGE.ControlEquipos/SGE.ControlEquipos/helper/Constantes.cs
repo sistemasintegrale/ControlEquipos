@@ -14,6 +14,7 @@
         public static int ConnTelasLima = 9;
         public static int ConnUlike = 10;
         public static int ConnMultiEmpresa = 11;
+        public static int ConnJabsa = 12;
 
         //
 
