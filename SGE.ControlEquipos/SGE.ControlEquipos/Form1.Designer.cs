@@ -66,6 +66,10 @@
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle8 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle9 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
             grdLista = new Guna.UI2.WinForms.Guna2DataGridView();
             Nombre = new DataGridViewTextBoxColumn();
             CPU = new DataGridViewTextBoxColumn();
@@ -109,6 +113,12 @@
             guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             Equipos = new TabPage();
             Versiones = new TabPage();
+            tabPage1 = new TabPage();
+            spiner3 = new MetroFramework.Controls.MetroProgressSpinner();
+            grdPvt = new Guna.UI2.WinForms.Guna2DataGridView();
+            mnuPvt = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            nuevoToolStripMenuItem1 = new ToolStripMenuItem();
+            modificarToolStripMenuItem2 = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)grdLista).BeginInit();
             mmenuEquipos.SuspendLayout();
             guna2GroupBox1.SuspendLayout();
@@ -119,6 +129,9 @@
             guna2TabControl1.SuspendLayout();
             Equipos.SuspendLayout();
             Versiones.SuspendLayout();
+            tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grdPvt).BeginInit();
+            mnuPvt.SuspendLayout();
             SuspendLayout();
             // 
             // grdLista
@@ -185,7 +198,6 @@
             grdLista.ThemeStyle.RowsStyle.Height = 25;
             grdLista.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
             grdLista.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
-            grdLista.CellContentClick += grdLista_CellContentClick;
             // 
             // Nombre
             // 
@@ -766,6 +778,7 @@
             // 
             guna2TabControl1.Controls.Add(Equipos);
             guna2TabControl1.Controls.Add(Versiones);
+            guna2TabControl1.Controls.Add(tabPage1);
             guna2TabControl1.Dock = DockStyle.Fill;
             guna2TabControl1.ItemSize = new Size(180, 40);
             guna2TabControl1.Location = new Point(233, 60);
@@ -815,6 +828,125 @@
             Versiones.Text = "Versiones";
             Versiones.UseVisualStyleBackColor = true;
             // 
+            // tabPage1
+            // 
+            tabPage1.Controls.Add(spiner3);
+            tabPage1.Controls.Add(grdPvt);
+            tabPage1.Location = new Point(4, 44);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(722, 535);
+            tabPage1.TabIndex = 2;
+            tabPage1.Text = "Punto de Venta";
+            tabPage1.UseVisualStyleBackColor = true;
+            // 
+            // spiner3
+            // 
+            spiner3.Location = new Point(297, 99);
+            spiner3.Maximum = 100;
+            spiner3.Name = "spiner3";
+            spiner3.Size = new Size(100, 100);
+            spiner3.Style = MetroFramework.MetroColorStyle.Green;
+            spiner3.TabIndex = 4;
+            spiner3.Text = "metroProgressSpinner2";
+            spiner3.Theme = MetroFramework.MetroThemeStyle.Light;
+            spiner3.UseSelectable = true;
+            spiner3.Value = 10;
+            // 
+            // grdPvt
+            // 
+            grdPvt.AllowUserToAddRows = false;
+            grdPvt.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle9.BackColor = Color.White;
+            grdPvt.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle9;
+            grdPvt.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+            dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle10.BackColor = Color.FromArgb(255, 128, 128);
+            dataGridViewCellStyle10.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle10.ForeColor = Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = Color.IndianRed;
+            dataGridViewCellStyle10.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = DataGridViewTriState.True;
+            grdPvt.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
+            grdPvt.ColumnHeadersHeight = 17;
+            grdPvt.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdPvt.ContextMenuStrip = mnuPvt;
+            dataGridViewCellStyle11.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = Color.White;
+            dataGridViewCellStyle11.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle11.ForeColor = Color.FromArgb(125, 137, 149);
+            dataGridViewCellStyle11.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle11.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle11.WrapMode = DataGridViewTriState.False;
+            grdPvt.DefaultCellStyle = dataGridViewCellStyle11;
+            grdPvt.Dock = DockStyle.Fill;
+            grdPvt.GridColor = Color.FromArgb(231, 229, 255);
+            grdPvt.Location = new Point(3, 3);
+            grdPvt.Name = "grdPvt";
+            grdPvt.ReadOnly = true;
+            dataGridViewCellStyle12.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle12.BackColor = SystemColors.Control;
+            dataGridViewCellStyle12.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle12.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle12.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle12.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle12.WrapMode = DataGridViewTriState.True;
+            grdPvt.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
+            grdPvt.RowHeadersVisible = false;
+            grdPvt.RowTemplate.Height = 25;
+            grdPvt.Size = new Size(716, 529);
+            grdPvt.TabIndex = 3;
+            grdPvt.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            grdPvt.ThemeStyle.AlternatingRowsStyle.Font = null;
+            grdPvt.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            grdPvt.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            grdPvt.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            grdPvt.ThemeStyle.BackColor = Color.White;
+            grdPvt.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            grdPvt.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            grdPvt.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            grdPvt.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdPvt.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            grdPvt.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdPvt.ThemeStyle.HeaderStyle.Height = 17;
+            grdPvt.ThemeStyle.ReadOnly = true;
+            grdPvt.ThemeStyle.RowsStyle.BackColor = Color.White;
+            grdPvt.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            grdPvt.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdPvt.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(125, 137, 149);
+            grdPvt.ThemeStyle.RowsStyle.Height = 25;
+            grdPvt.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            grdPvt.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            // 
+            // mnuPvt
+            // 
+            mnuPvt.Items.AddRange(new ToolStripItem[] { nuevoToolStripMenuItem1, modificarToolStripMenuItem2 });
+            mnuPvt.Name = "mnuPvt";
+            mnuPvt.RenderStyle.ArrowColor = Color.FromArgb(151, 143, 255);
+            mnuPvt.RenderStyle.BorderColor = Color.Gainsboro;
+            mnuPvt.RenderStyle.ColorTable = null;
+            mnuPvt.RenderStyle.RoundedEdges = true;
+            mnuPvt.RenderStyle.SelectionArrowColor = Color.White;
+            mnuPvt.RenderStyle.SelectionBackColor = Color.FromArgb(100, 88, 255);
+            mnuPvt.RenderStyle.SelectionForeColor = Color.White;
+            mnuPvt.RenderStyle.SeparatorColor = Color.Gainsboro;
+            mnuPvt.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            mnuPvt.Size = new Size(181, 70);
+            // 
+            // nuevoToolStripMenuItem1
+            // 
+            nuevoToolStripMenuItem1.Name = "nuevoToolStripMenuItem1";
+            nuevoToolStripMenuItem1.Size = new Size(180, 22);
+            nuevoToolStripMenuItem1.Text = "Nuevo";
+            nuevoToolStripMenuItem1.Click += nuevoToolStripMenuItem1_Click;
+            // 
+            // modificarToolStripMenuItem2
+            // 
+            modificarToolStripMenuItem2.Name = "modificarToolStripMenuItem2";
+            modificarToolStripMenuItem2.Size = new Size(180, 22);
+            modificarToolStripMenuItem2.Text = "Modificar";
+            modificarToolStripMenuItem2.Click += modificarToolStripMenuItem2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -836,6 +968,9 @@
             guna2TabControl1.ResumeLayout(false);
             Equipos.ResumeLayout(false);
             Versiones.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grdPvt).EndInit();
+            mnuPvt.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -884,5 +1019,11 @@
         private Guna.UI2.WinForms.Guna2Button btnUl;
         private Guna.UI2.WinForms.Guna2Button btnMS;
         private Guna.UI2.WinForms.Guna2Button btnJabsa;
+        private TabPage tabPage1;
+        private MetroFramework.Controls.MetroProgressSpinner spiner3;
+        private Guna.UI2.WinForms.Guna2DataGridView grdPvt;
+        private Guna.UI2.WinForms.Guna2ContextMenuStrip mnuPvt;
+        private ToolStripMenuItem nuevoToolStripMenuItem1;
+        private ToolStripMenuItem modificarToolStripMenuItem2;
     }
 }

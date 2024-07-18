@@ -4,6 +4,7 @@ using SGE.ControlEquipos.Entities;
 using SGE.ControlEquipos.helper;
 using System.Runtime.CompilerServices;
 using System.Windows.Forms;
+using static Guna.UI2.Native.WinApi;
 
 namespace SGE.ControlEquipos
 {
@@ -11,6 +12,8 @@ namespace SGE.ControlEquipos
     {
         List<Entities.ControlEquipos> lista = new List<Entities.ControlEquipos>();
         List<ControlVersiones> listVersiones = new List<ControlVersiones>();
+        List<ControlVersionesPvt> listaPvt = new List<ControlVersionesPvt>();
+        private bool Pvt = false;
         public Form1()
         {
             InitializeComponent();
@@ -18,12 +21,15 @@ namespace SGE.ControlEquipos
 
         void Reload(int conneccion, Guna2Button button)
         {
+
             limpiarGrds();
             this.Text = button.Text;
             this.Refresh();
             Constantes.Connection = conneccion;
             cargar();
         }
+
+
 
         private void Form1_Load(object sender, EventArgs e) => Reload(1, btnGP);
         private void btnGP_Click(object sender, EventArgs e) => Reload(Constantes.ConnGrenPeru, btnGP);
@@ -43,26 +49,21 @@ namespace SGE.ControlEquipos
         {
             spiner1.Visible = true;
             spiner2.Visible = true;
-            Task<List<Entities.ControlEquipos>> taskEquipos = new Task<List<Entities.ControlEquipos>>(new GeneralData().Listar_Equipos);
-            Task<List<ControlVersiones>> taskVersiones = new Task<List<ControlVersiones>>(new GeneralData().Listar_Versiones);
-            taskVersiones.Start();
-            taskEquipos.Start();
-            lista = await taskEquipos;
-            listVersiones = await taskVersiones;
+            spiner3.Visible = true;
+
+            lista = await Task.Run(() => new GeneralData().Listar_Equipos());
+            listVersiones = await Task.Run(() => new GeneralData().Listar_Versiones());
+            listaPvt = await Task.Run(() => new GeneralData().Listar_Versiones_pvt());
 
             spiner1.Visible = false;
             grdPublicaciones.DataSource = listVersiones;
             spiner2.Visible = false;
             grdLista.DataSource = lista;
+            spiner3.Visible = false;
+            grdPvt.DataSource = listaPvt;
 
         }
 
-
-
-        private void grdLista_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
 
         private void darAccesoToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -99,6 +100,7 @@ namespace SGE.ControlEquipos
         {
             grdLista.DataSource = new List<Entities.ControlEquipos>();
             grdPublicaciones.DataSource = new List<ControlVersiones>();
+            grdPvt.DataSource = new List<ControlVersionesPvt>();
         }
 
         private void nuevoToolStripMenuItem_Click(object sender, EventArgs e)
@@ -169,8 +171,51 @@ namespace SGE.ControlEquipos
 
         }
 
-        
+        private void nuevoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmMatePvt frm = new FrmMatePvt();
+           
+ 
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                Guna2MessageDialog msg = new Guna2MessageDialog();
+                msg.Caption = "Información del Sistema";
+                msg.Text = "Actualización Exitosa";
+                msg.Buttons = MessageDialogButtons.OK;
+                msg.Style = MessageDialogStyle.Light;
+                msg.Icon = MessageDialogIcon.Information;
+                msg.Parent = this;
+                msg.Show();
+                cargar();
+            }
+        }
 
+        private void modificarToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow selectedRow = grdPvt.SelectedRows[0];
+            ControlVersionesPvt controlVersionesPvt = new ControlVersionesPvt
+            {
+                Id = Convert.ToInt32(selectedRow.Cells["Id"].Value),
+                Link = selectedRow.Cells["Link"].Value.ToString()!,
+                Nombre = selectedRow.Cells["Nombre"].Value.ToString()!,
+                Fecha = Convert.ToDateTime(selectedRow.Cells["Fecha"].Value)
+            };
 
+            FrmMatePvt frm = new FrmMatePvt();
+            frm.obj = controlVersionesPvt;
+            frm.SetValues();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                Guna2MessageDialog msg = new Guna2MessageDialog();
+                msg.Caption = "Información del Sistema";
+                msg.Text = "Actualización Exitosa";
+                msg.Buttons = MessageDialogButtons.OK;
+                msg.Style = MessageDialogStyle.Light;
+                msg.Icon = MessageDialogIcon.Information;
+                msg.Parent = this;
+                msg.Show();
+                cargar();
+            }
+        }
     }
 }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos.csproj",
+      "projectUniqueName": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos.csproj",
       "projectName": "SGE.ControlEquipos",
-      "projectPath": "D:\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos.csproj",
+      "projectPath": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos.csproj",
       "packagesPath": "C:\\Users\\ROBERTO\\.nuget\\packages\\",
-      "outputPath": "D:\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\obj\\",
+      "outputPath": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

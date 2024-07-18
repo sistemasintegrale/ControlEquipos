@@ -222,5 +222,85 @@ namespace SGE.ControlEquipos.DataAcces
                 Console.WriteLine(ex);
             }
         }
+
+        public List<ControlVersionesPvt> Listar_Versiones_pvt()
+        {
+            List<ControlVersionesPvt> lista = new List<ControlVersionesPvt>();
+            try
+            {
+                using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
+                {
+                    cn.Open();
+                    using (SqlCommand cmd = new SqlCommand("ACT_CONTROL_PUNTO_VENTA_LISTAR", cn))
+                    {
+                        cmd.CommandType = CommandType.StoredProcedure;
+                        cmd.CommandTimeout = int.MaxValue;
+                        SqlDataReader reader = cmd.ExecuteReader();
+                        while (reader.Read())
+                        {
+
+                            lista.Add(new ControlVersionesPvt()
+                            {
+                                Id = Convert.ToInt32(reader["Id"]),
+                                Nombre = reader["Nombre"].ToString()!,
+                                Fecha = Convert.ToDateTime(reader["Fecha"]),
+                                Link = reader["Link"].ToString()!,
+
+
+                            }); ;
+
+                        }
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+            return lista;
+        }
+
+        internal void Version_Guardar_pvt(ControlVersionesPvt obj)
+        {
+            try
+            {
+
+                using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
+                {
+                    string query = $"INSERT INTO SGE_CONTROL_PUNTO_VENTA (Nombre,Link) VALUES ('{obj.Nombre}','{obj.Link}')";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.CommandType = CommandType.Text;
+                    cn.Open();
+                    cmd.ExecuteReader();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
+
+        internal async Task Version_Modificar_pvt(ControlVersionesPvt obj)
+        {
+            try
+            {
+
+                using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
+                {
+                    string query = $"update SGE_CONTROL_PUNTO_VENTA set Nombre = '{obj.Nombre}', Link = '{obj.Link}' where Id = {obj.Id}";
+                    SqlCommand cmd = new SqlCommand(query, cn);
+                    cmd.CommandType = CommandType.Text;
+                    cn.Open();
+                    await cmd.ExecuteNonQueryAsync();
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+            }
+        }
     }
 }
