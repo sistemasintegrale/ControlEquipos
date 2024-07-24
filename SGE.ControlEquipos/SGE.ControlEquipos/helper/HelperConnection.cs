@@ -18,7 +18,7 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=ges-pro_com_db;Persist Security Info=True;User ID=ges-pro_com_ges;Password=EY4hI006Z_b;MultipleActiveResultSets = True;TrustServerCertificate = False;Encrypt = False";
                     break;
                 case 2: //GALY COMPANY
-                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_GC;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False"; 
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_GC;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 3: // MOTO TORQUE
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=sistemasintegrales_com_MT;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
@@ -39,7 +39,7 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=parquesdelparaiso_pe_PV;Persist Security Info=True;User ID=parquesdelparaiso_pe_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 9: //TELAS LIMA
-                    strConexion =  "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_TL;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_TL;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 10: //ULIKE
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_UL;Persist Security Info=True;User ID=sistemasintegrales_com_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
@@ -48,7 +48,7 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=real_invest_mmm_com_me;Persist Security Info=True;User ID=telaslima_com_de;Password=X3V!~OB@za;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 12: //JABSA
-                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_GC;Persist Security Info=True;User ID=telaslima_com_de;Password=X3V!~OB@za;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=jabsa_pe_jb;Persist Security Info=True;User ID=jabsa_pe_jb;Password=zgWPRSePOHb9;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
             }
             return strConexion;
@@ -99,6 +99,6 @@ namespace SGE.ControlEquipos.helper
             return strConexion;
         }
 
-        
+
     }
 }
