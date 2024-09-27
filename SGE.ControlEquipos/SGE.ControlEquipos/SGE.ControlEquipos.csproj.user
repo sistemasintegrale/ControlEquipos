@@ -3,15 +3,4 @@
   <PropertyGroup>
     <_LastSelectedProfileId>D:\Control-actualizador\ControlEquipos\SGE.ControlEquipos\SGE.ControlEquipos\Properties\PublishProfiles\ClickOnceProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
-  <ItemGroup>
-    <Compile Update="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="frmManteEquipos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="FrmMateVersiones.cs">
-      <SubType>Form</SubType>
-    </Compile>
-  </ItemGroup>
 </Project>
