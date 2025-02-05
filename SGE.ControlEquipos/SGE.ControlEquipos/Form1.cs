@@ -43,7 +43,9 @@ namespace SGE.ControlEquipos
         private void btnTL_Click(object sender, EventArgs e) => Reload(Constantes.ConnTelasLima, btnTL);
         private void btnUl_Click(object sender, EventArgs e) => Reload(Constantes.ConnUlike, btnUl);
         private void btnMS_Click(object sender, EventArgs e) => Reload(Constantes.ConnMultiEmpresa, btnMS);
-        private void btnJabsa_Click(object sender, EventArgs e) => Reload(Constantes.ConnJabsa, btnJabsa);
+        private void btnJabsa_Click(object sender, EventArgs e) => Reload(Constantes.ConnJabsa, btnJabsa); 
+        private void btnjudithlab_Click(object sender, EventArgs e) => Reload(Constantes.ConnJudithLab, btnjudithlab);
+         
 
         async void cargar()
         {
@@ -174,8 +176,8 @@ namespace SGE.ControlEquipos
         private void nuevoToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             FrmMatePvt frm = new FrmMatePvt();
-           
- 
+
+
             if (frm.ShowDialog() == DialogResult.OK)
             {
                 Guna2MessageDialog msg = new Guna2MessageDialog();
@@ -217,5 +219,7 @@ namespace SGE.ControlEquipos
                 cargar();
             }
         }
+
+      
     }
 }

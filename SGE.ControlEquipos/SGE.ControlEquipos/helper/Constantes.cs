@@ -15,6 +15,8 @@
         public static int ConnUlike = 10;
         public static int ConnMultiEmpresa = 11;
         public static int ConnJabsa = 12;
+        public static int ConnJudithLab = 13;
+
 
         //
 

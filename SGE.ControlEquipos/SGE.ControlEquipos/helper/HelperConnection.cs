@@ -51,6 +51,9 @@ namespace SGE.ControlEquipos.helper
                 case 12: //JABSA
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=jabsa_pe_jb;Persist Security Info=True;User ID=jabsa_pe_jb;Password=zgWPRSePOHb9;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
+                case 13: //JUTIDH LAB
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_judith_lab;Persist Security Info=True;User ID=telaslima_com_judith_lab;Password=X3V!~OB@za;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    break;
             }
             return strConexion;
         }
