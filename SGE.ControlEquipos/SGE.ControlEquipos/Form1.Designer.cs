@@ -32,8 +32,10 @@
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -58,10 +60,12 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle7 = new DataGridViewCellStyle();
@@ -70,8 +74,6 @@
             DataGridViewCellStyle dataGridViewCellStyle10 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle11 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle12 = new DataGridViewCellStyle();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             grdLista = new Guna.UI2.WinForms.Guna2DataGridView();
             Nombre = new DataGridViewTextBoxColumn();
             CPU = new DataGridViewTextBoxColumn();
@@ -88,6 +90,8 @@
             darAccesoToolStripMenuItem = new ToolStripMenuItem();
             modificarToolStripMenuItem1 = new ToolStripMenuItem();
             guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            btnmjcgoup = new Guna.UI2.WinForms.Guna2Button();
+            btnjudithlab = new Guna.UI2.WinForms.Guna2Button();
             btnJabsa = new Guna.UI2.WinForms.Guna2Button();
             btnMS = new Guna.UI2.WinForms.Guna2Button();
             btnUl = new Guna.UI2.WinForms.Guna2Button();
@@ -121,7 +125,6 @@
             mnuPvt = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             nuevoToolStripMenuItem1 = new ToolStripMenuItem();
             modificarToolStripMenuItem2 = new ToolStripMenuItem();
-            btnjudithlab = new Guna.UI2.WinForms.Guna2Button();
             ((System.ComponentModel.ISupportInitialize)grdLista).BeginInit();
             mmenuEquipos.SuspendLayout();
             guna2GroupBox1.SuspendLayout();
@@ -178,7 +181,7 @@
             grdLista.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             grdLista.RowHeadersVisible = false;
             grdLista.RowTemplate.Height = 25;
-            grdLista.Size = new Size(716, 528);
+            grdLista.Size = new Size(716, 582);
             grdLista.TabIndex = 0;
             grdLista.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             grdLista.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -321,6 +324,7 @@
             // 
             // guna2GroupBox1
             // 
+            guna2GroupBox1.Controls.Add(btnmjcgoup);
             guna2GroupBox1.Controls.Add(btnjudithlab);
             guna2GroupBox1.Controls.Add(btnJabsa);
             guna2GroupBox1.Controls.Add(btnMS);
@@ -334,23 +338,63 @@
             guna2GroupBox1.Controls.Add(btnMT);
             guna2GroupBox1.Controls.Add(btnGC);
             guna2GroupBox1.Controls.Add(btnGP);
-            guna2GroupBox1.CustomizableEdges = customizableEdges27;
+            guna2GroupBox1.CustomizableEdges = customizableEdges29;
             guna2GroupBox1.Dock = DockStyle.Left;
             guna2GroupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             guna2GroupBox1.ForeColor = Color.FromArgb(125, 137, 149);
             guna2GroupBox1.Location = new Point(20, 60);
             guna2GroupBox1.Name = "guna2GroupBox1";
-            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges28;
-            guna2GroupBox1.Size = new Size(213, 622);
+            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            guna2GroupBox1.Size = new Size(213, 676);
             guna2GroupBox1.TabIndex = 1;
             guna2GroupBox1.Text = "Empresas";
             guna2GroupBox1.TextAlign = HorizontalAlignment.Center;
+            // 
+            // btnmjcgoup
+            // 
+            btnmjcgoup.Animated = true;
+            btnmjcgoup.AnimatedGIF = true;
+            btnmjcgoup.CustomizableEdges = customizableEdges1;
+            btnmjcgoup.DisabledState.BorderColor = Color.DarkGray;
+            btnmjcgoup.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnmjcgoup.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnmjcgoup.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnmjcgoup.Dock = DockStyle.Top;
+            btnmjcgoup.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnmjcgoup.ForeColor = Color.White;
+            btnmjcgoup.Location = new Point(0, 625);
+            btnmjcgoup.Name = "btnmjcgoup";
+            btnmjcgoup.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnmjcgoup.Size = new Size(213, 45);
+            btnmjcgoup.TabIndex = 13;
+            btnmjcgoup.Text = "Mjc Groupsac";
+            btnmjcgoup.Click += btnmjcgoup_Click;
+            // 
+            // btnjudithlab
+            // 
+            btnjudithlab.Animated = true;
+            btnjudithlab.AnimatedGIF = true;
+            btnjudithlab.CustomizableEdges = customizableEdges3;
+            btnjudithlab.DisabledState.BorderColor = Color.DarkGray;
+            btnjudithlab.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnjudithlab.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnjudithlab.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnjudithlab.Dock = DockStyle.Top;
+            btnjudithlab.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnjudithlab.ForeColor = Color.White;
+            btnjudithlab.Location = new Point(0, 580);
+            btnjudithlab.Name = "btnjudithlab";
+            btnjudithlab.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnjudithlab.Size = new Size(213, 45);
+            btnjudithlab.TabIndex = 12;
+            btnjudithlab.Text = "judith Lab";
+            btnjudithlab.Click += btnjudithlab_Click;
             // 
             // btnJabsa
             // 
             btnJabsa.Animated = true;
             btnJabsa.AnimatedGIF = true;
-            btnJabsa.CustomizableEdges = customizableEdges3;
+            btnJabsa.CustomizableEdges = customizableEdges5;
             btnJabsa.DisabledState.BorderColor = Color.DarkGray;
             btnJabsa.DisabledState.CustomBorderColor = Color.DarkGray;
             btnJabsa.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -360,7 +404,7 @@
             btnJabsa.ForeColor = Color.White;
             btnJabsa.Location = new Point(0, 535);
             btnJabsa.Name = "btnJabsa";
-            btnJabsa.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnJabsa.ShadowDecoration.CustomizableEdges = customizableEdges6;
             btnJabsa.Size = new Size(213, 45);
             btnJabsa.TabIndex = 11;
             btnJabsa.Text = "Jabsa";
@@ -370,7 +414,7 @@
             // 
             btnMS.Animated = true;
             btnMS.AnimatedGIF = true;
-            btnMS.CustomizableEdges = customizableEdges5;
+            btnMS.CustomizableEdges = customizableEdges7;
             btnMS.DisabledState.BorderColor = Color.DarkGray;
             btnMS.DisabledState.CustomBorderColor = Color.DarkGray;
             btnMS.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -380,7 +424,7 @@
             btnMS.ForeColor = Color.White;
             btnMS.Location = new Point(0, 490);
             btnMS.Name = "btnMS";
-            btnMS.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            btnMS.ShadowDecoration.CustomizableEdges = customizableEdges8;
             btnMS.Size = new Size(213, 45);
             btnMS.TabIndex = 10;
             btnMS.Text = "Multi Empresa";
@@ -390,7 +434,7 @@
             // 
             btnUl.Animated = true;
             btnUl.AnimatedGIF = true;
-            btnUl.CustomizableEdges = customizableEdges7;
+            btnUl.CustomizableEdges = customizableEdges9;
             btnUl.DisabledState.BorderColor = Color.DarkGray;
             btnUl.DisabledState.CustomBorderColor = Color.DarkGray;
             btnUl.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -400,7 +444,7 @@
             btnUl.ForeColor = Color.White;
             btnUl.Location = new Point(0, 445);
             btnUl.Name = "btnUl";
-            btnUl.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            btnUl.ShadowDecoration.CustomizableEdges = customizableEdges10;
             btnUl.Size = new Size(213, 45);
             btnUl.TabIndex = 9;
             btnUl.Text = "Ulike";
@@ -410,7 +454,7 @@
             // 
             btnTL.Animated = true;
             btnTL.AnimatedGIF = true;
-            btnTL.CustomizableEdges = customizableEdges9;
+            btnTL.CustomizableEdges = customizableEdges11;
             btnTL.DisabledState.BorderColor = Color.DarkGray;
             btnTL.DisabledState.CustomBorderColor = Color.DarkGray;
             btnTL.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -420,7 +464,7 @@
             btnTL.ForeColor = Color.White;
             btnTL.Location = new Point(0, 400);
             btnTL.Name = "btnTL";
-            btnTL.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            btnTL.ShadowDecoration.CustomizableEdges = customizableEdges12;
             btnTL.Size = new Size(213, 45);
             btnTL.TabIndex = 8;
             btnTL.Text = "Telas Lima";
@@ -430,7 +474,7 @@
             // 
             btnPV.Animated = true;
             btnPV.AnimatedGIF = true;
-            btnPV.CustomizableEdges = customizableEdges11;
+            btnPV.CustomizableEdges = customizableEdges13;
             btnPV.DisabledState.BorderColor = Color.DarkGray;
             btnPV.DisabledState.CustomBorderColor = Color.DarkGray;
             btnPV.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -440,7 +484,7 @@
             btnPV.ForeColor = Color.White;
             btnPV.Location = new Point(0, 355);
             btnPV.Name = "btnPV";
-            btnPV.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            btnPV.ShadowDecoration.CustomizableEdges = customizableEdges14;
             btnPV.Size = new Size(213, 45);
             btnPV.TabIndex = 7;
             btnPV.Text = "Prados Verdes";
@@ -450,7 +494,7 @@
             // 
             btnCJ.Animated = true;
             btnCJ.AnimatedGIF = true;
-            btnCJ.CustomizableEdges = customizableEdges13;
+            btnCJ.CustomizableEdges = customizableEdges15;
             btnCJ.DisabledState.BorderColor = Color.DarkGray;
             btnCJ.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCJ.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -460,7 +504,7 @@
             btnCJ.ForeColor = Color.White;
             btnCJ.Location = new Point(0, 310);
             btnCJ.Name = "btnCJ";
-            btnCJ.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnCJ.ShadowDecoration.CustomizableEdges = customizableEdges16;
             btnCJ.Size = new Size(213, 45);
             btnCJ.TabIndex = 6;
             btnCJ.Text = "Calzados Jaguar";
@@ -470,7 +514,7 @@
             // 
             btnNM.Animated = true;
             btnNM.AnimatedGIF = true;
-            btnNM.CustomizableEdges = customizableEdges15;
+            btnNM.CustomizableEdges = customizableEdges17;
             btnNM.DisabledState.BorderColor = Color.DarkGray;
             btnNM.DisabledState.CustomBorderColor = Color.DarkGray;
             btnNM.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -480,7 +524,7 @@
             btnNM.ForeColor = Color.White;
             btnNM.Location = new Point(0, 265);
             btnNM.Name = "btnNM";
-            btnNM.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnNM.ShadowDecoration.CustomizableEdges = customizableEdges18;
             btnNM.Size = new Size(213, 45);
             btnNM.TabIndex = 5;
             btnNM.Text = "Nova Motos";
@@ -490,7 +534,7 @@
             // 
             btnNF.Animated = true;
             btnNF.AnimatedGIF = true;
-            btnNF.CustomizableEdges = customizableEdges17;
+            btnNF.CustomizableEdges = customizableEdges19;
             btnNF.DisabledState.BorderColor = Color.DarkGray;
             btnNF.DisabledState.CustomBorderColor = Color.DarkGray;
             btnNF.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -500,7 +544,7 @@
             btnNF.ForeColor = Color.White;
             btnNF.Location = new Point(0, 220);
             btnNF.Name = "btnNF";
-            btnNF.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            btnNF.ShadowDecoration.CustomizableEdges = customizableEdges20;
             btnNF.Size = new Size(213, 45);
             btnNF.TabIndex = 4;
             btnNF.Text = "Nova Flat";
@@ -510,7 +554,7 @@
             // 
             btnNG.Animated = true;
             btnNG.AnimatedGIF = true;
-            btnNG.CustomizableEdges = customizableEdges19;
+            btnNG.CustomizableEdges = customizableEdges21;
             btnNG.DisabledState.BorderColor = Color.DarkGray;
             btnNG.DisabledState.CustomBorderColor = Color.DarkGray;
             btnNG.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -520,7 +564,7 @@
             btnNG.ForeColor = Color.White;
             btnNG.Location = new Point(0, 175);
             btnNG.Name = "btnNG";
-            btnNG.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            btnNG.ShadowDecoration.CustomizableEdges = customizableEdges22;
             btnNG.Size = new Size(213, 45);
             btnNG.TabIndex = 3;
             btnNG.Text = "Nova Glass";
@@ -530,7 +574,7 @@
             // 
             btnMT.Animated = true;
             btnMT.AnimatedGIF = true;
-            btnMT.CustomizableEdges = customizableEdges21;
+            btnMT.CustomizableEdges = customizableEdges23;
             btnMT.DisabledState.BorderColor = Color.DarkGray;
             btnMT.DisabledState.CustomBorderColor = Color.DarkGray;
             btnMT.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -540,7 +584,7 @@
             btnMT.ForeColor = Color.White;
             btnMT.Location = new Point(0, 130);
             btnMT.Name = "btnMT";
-            btnMT.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            btnMT.ShadowDecoration.CustomizableEdges = customizableEdges24;
             btnMT.Size = new Size(213, 45);
             btnMT.TabIndex = 2;
             btnMT.Text = "Moto Torque";
@@ -550,7 +594,7 @@
             // 
             btnGC.Animated = true;
             btnGC.AnimatedGIF = true;
-            btnGC.CustomizableEdges = customizableEdges23;
+            btnGC.CustomizableEdges = customizableEdges25;
             btnGC.DisabledState.BorderColor = Color.DarkGray;
             btnGC.DisabledState.CustomBorderColor = Color.DarkGray;
             btnGC.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -560,7 +604,7 @@
             btnGC.ForeColor = Color.White;
             btnGC.Location = new Point(0, 85);
             btnGC.Name = "btnGC";
-            btnGC.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            btnGC.ShadowDecoration.CustomizableEdges = customizableEdges26;
             btnGC.Size = new Size(213, 45);
             btnGC.TabIndex = 1;
             btnGC.Text = "Galy Company";
@@ -570,7 +614,7 @@
             // 
             btnGP.Animated = true;
             btnGP.AnimatedGIF = true;
-            btnGP.CustomizableEdges = customizableEdges25;
+            btnGP.CustomizableEdges = customizableEdges27;
             btnGP.DisabledState.BorderColor = Color.DarkGray;
             btnGP.DisabledState.CustomBorderColor = Color.DarkGray;
             btnGP.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -580,7 +624,7 @@
             btnGP.ForeColor = Color.White;
             btnGP.Location = new Point(0, 40);
             btnGP.Name = "btnGP";
-            btnGP.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            btnGP.ShadowDecoration.CustomizableEdges = customizableEdges28;
             btnGP.Size = new Size(213, 45);
             btnGP.TabIndex = 0;
             btnGP.Text = "Green Perú";
@@ -590,14 +634,14 @@
             // 
             guna2GroupBox2.Controls.Add(spiner1);
             guna2GroupBox2.Controls.Add(grdLista);
-            guna2GroupBox2.CustomizableEdges = customizableEdges29;
+            guna2GroupBox2.CustomizableEdges = customizableEdges31;
             guna2GroupBox2.Dock = DockStyle.Fill;
             guna2GroupBox2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             guna2GroupBox2.ForeColor = Color.FromArgb(125, 137, 149);
             guna2GroupBox2.Location = new Point(3, 3);
             guna2GroupBox2.Name = "guna2GroupBox2";
-            guna2GroupBox2.ShadowDecoration.CustomizableEdges = customizableEdges30;
-            guna2GroupBox2.Size = new Size(716, 568);
+            guna2GroupBox2.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            guna2GroupBox2.Size = new Size(716, 622);
             guna2GroupBox2.TabIndex = 2;
             guna2GroupBox2.Text = "Equipos";
             guna2GroupBox2.TextAlign = HorizontalAlignment.Center;
@@ -620,14 +664,14 @@
             sd.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash;
             sd.Controls.Add(spiner2);
             sd.Controls.Add(grdPublicaciones);
-            sd.CustomizableEdges = customizableEdges31;
+            sd.CustomizableEdges = customizableEdges33;
             sd.Dock = DockStyle.Fill;
             sd.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             sd.ForeColor = Color.FromArgb(125, 137, 149);
             sd.Location = new Point(3, 3);
             sd.Name = "sd";
-            sd.ShadowDecoration.CustomizableEdges = customizableEdges32;
-            sd.Size = new Size(716, 529);
+            sd.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            sd.Size = new Size(716, 622);
             sd.TabIndex = 3;
             sd.Text = "Publicaciones";
             sd.TextAlign = HorizontalAlignment.Center;
@@ -687,7 +731,7 @@
             grdPublicaciones.RowHeadersDefaultCellStyle = dataGridViewCellStyle8;
             grdPublicaciones.RowHeadersVisible = false;
             grdPublicaciones.RowTemplate.Height = 25;
-            grdPublicaciones.Size = new Size(716, 489);
+            grdPublicaciones.Size = new Size(716, 582);
             grdPublicaciones.TabIndex = 0;
             grdPublicaciones.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             grdPublicaciones.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -788,7 +832,7 @@
             guna2TabControl1.Location = new Point(233, 60);
             guna2TabControl1.Name = "guna2TabControl1";
             guna2TabControl1.SelectedIndex = 0;
-            guna2TabControl1.Size = new Size(730, 622);
+            guna2TabControl1.Size = new Size(730, 676);
             guna2TabControl1.TabButtonHoverState.BorderColor = Color.Empty;
             guna2TabControl1.TabButtonHoverState.FillColor = Color.FromArgb(40, 52, 70);
             guna2TabControl1.TabButtonHoverState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
@@ -816,7 +860,7 @@
             Equipos.Location = new Point(4, 44);
             Equipos.Name = "Equipos";
             Equipos.Padding = new Padding(3);
-            Equipos.Size = new Size(722, 574);
+            Equipos.Size = new Size(722, 628);
             Equipos.TabIndex = 0;
             Equipos.Text = "Equipos";
             Equipos.UseVisualStyleBackColor = true;
@@ -827,7 +871,7 @@
             Versiones.Location = new Point(4, 44);
             Versiones.Name = "Versiones";
             Versiones.Padding = new Padding(3);
-            Versiones.Size = new Size(722, 535);
+            Versiones.Size = new Size(722, 628);
             Versiones.TabIndex = 1;
             Versiones.Text = "Versiones";
             Versiones.UseVisualStyleBackColor = true;
@@ -839,7 +883,7 @@
             tabPage1.Location = new Point(4, 44);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(722, 535);
+            tabPage1.Size = new Size(722, 628);
             tabPage1.TabIndex = 2;
             tabPage1.Text = "Punto de Venta";
             tabPage1.UseVisualStyleBackColor = true;
@@ -898,7 +942,7 @@
             grdPvt.RowHeadersDefaultCellStyle = dataGridViewCellStyle12;
             grdPvt.RowHeadersVisible = false;
             grdPvt.RowTemplate.Height = 25;
-            grdPvt.Size = new Size(716, 529);
+            grdPvt.Size = new Size(716, 622);
             grdPvt.TabIndex = 3;
             grdPvt.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
             grdPvt.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -951,31 +995,11 @@
             modificarToolStripMenuItem2.Text = "Modificar";
             modificarToolStripMenuItem2.Click += modificarToolStripMenuItem2_Click;
             // 
-            // btnjudithlab
-            // 
-            btnjudithlab.Animated = true;
-            btnjudithlab.AnimatedGIF = true;
-            btnjudithlab.CustomizableEdges = customizableEdges1;
-            btnjudithlab.DisabledState.BorderColor = Color.DarkGray;
-            btnjudithlab.DisabledState.CustomBorderColor = Color.DarkGray;
-            btnjudithlab.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            btnjudithlab.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            btnjudithlab.Dock = DockStyle.Top;
-            btnjudithlab.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            btnjudithlab.ForeColor = Color.White;
-            btnjudithlab.Location = new Point(0, 580);
-            btnjudithlab.Name = "btnjudithlab";
-            btnjudithlab.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            btnjudithlab.Size = new Size(213, 45);
-            btnjudithlab.TabIndex = 12;
-            btnjudithlab.Text = "judith Lab";
-            btnjudithlab.Click += btnjudithlab_Click;
-            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(983, 702);
+            ClientSize = new Size(983, 756);
             Controls.Add(guna2TabControl1);
             Controls.Add(guna2GroupBox1);
             Name = "Form1";
@@ -1050,5 +1074,6 @@
         private ToolStripMenuItem nuevoToolStripMenuItem1;
         private ToolStripMenuItem modificarToolStripMenuItem2;
         private Guna.UI2.WinForms.Guna2Button btnjudithlab;
+        private Guna.UI2.WinForms.Guna2Button btnmjcgoup;
     }
 }
