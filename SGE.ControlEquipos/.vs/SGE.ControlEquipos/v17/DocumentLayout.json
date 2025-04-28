@@ -3,36 +3,44 @@
   "WorkspaceRootPath": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmanteequipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\frmmanteequipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\helper\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\helper\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmatepvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\frmmatepvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|d:\\control-actualizador\\controlequipos\\sge.controlequipos\\sge.controlequipos\\frmmateversiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\frmmateversiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmatepvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\frmmatepvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\dataacces\\generaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\dataacces\\generaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmateversiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\frmmateversiones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\helper\\helperconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\helper\\helperconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmanteequipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\frmmanteequipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\helper\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\helper\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmatepvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\frmmatepvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmatepvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\frmmatepvt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmanteequipos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -41,14 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\helper\\sqlqueys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\helper\\sqlqueys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\helper\\helperconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\helper\\helperconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\dataacces\\generaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|solutionrelative:sge.controlequipos\\dataacces\\generaldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C1544FF2-F1EB-420A-B298-95053B0304D0}|SGE.ControlEquipos\\SGE.ControlEquipos.csproj|D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\sge.controlequipos\\frmmatepvt.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -66,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -78,71 +78,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Constantes.cs",
-              "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\Constantes.cs",
-              "RelativeDocumentMoniker": "SGE.ControlEquipos\\helper\\Constantes.cs",
-              "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\Constantes.cs",
-              "RelativeToolTip": "SGE.ControlEquipos\\helper\\Constantes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-04-29T16:19:02.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FrmMatePVT.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMatePVT.cs",
-              "RelativeDocumentMoniker": "SGE.ControlEquipos\\FrmMatePVT.cs",
-              "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMatePVT.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SGE.ControlEquipos\\FrmMatePVT.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T23:30:53.106Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FrmMatePVT.cs",
-              "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMatePVT.cs",
-              "RelativeDocumentMoniker": "SGE.ControlEquipos\\FrmMatePVT.cs",
-              "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMatePVT.cs",
-              "RelativeToolTip": "SGE.ControlEquipos\\FrmMatePVT.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAA1wD8AAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T23:30:43.06Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "FrmMateVersiones.cs",
               "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMateVersiones.cs",
               "RelativeDocumentMoniker": "SGE.ControlEquipos\\FrmMateVersiones.cs",
               "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMateVersiones.cs",
               "RelativeToolTip": "SGE.ControlEquipos\\FrmMateVersiones.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAjAAAA",
+              "ViewState": "AQIAADEAAAAAAAAAAAAjwDwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-03-07T14:53:13.103Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "frmManteEquipos.cs",
               "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\frmManteEquipos.cs",
               "RelativeDocumentMoniker": "SGE.ControlEquipos\\frmManteEquipos.cs",
               "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\frmManteEquipos.cs",
               "RelativeToolTip": "SGE.ControlEquipos\\frmManteEquipos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAASAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-03-22T20:34:52.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2023-03-22T20:34:52.292Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "FrmMateVersiones.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMateVersiones.cs",
               "RelativeDocumentMoniker": "SGE.ControlEquipos\\FrmMateVersiones.cs",
@@ -166,32 +127,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\Form1.cs",
               "RelativeDocumentMoniker": "SGE.ControlEquipos\\Form1.cs",
               "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\Form1.cs",
               "RelativeToolTip": "SGE.ControlEquipos\\Form1.cs",
-              "ViewState": "AQIAACYAAAAAAAAAAAAuwC8AAABWAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAIA3wD0AAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2023-03-06T17:11:56.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "frmManteEquipos.cs [Dise\u00F1o]",
               "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\frmManteEquipos.cs",
               "RelativeDocumentMoniker": "SGE.ControlEquipos\\frmManteEquipos.cs",
               "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\frmManteEquipos.cs [Dise\u00F1o]",
               "RelativeToolTip": "SGE.ControlEquipos\\frmManteEquipos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-03-22T20:35:48.518Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2023-03-22T20:35:48.518Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "SqlQueys.cs",
               "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\SqlQueys.cs",
               "RelativeDocumentMoniker": "SGE.ControlEquipos\\helper\\SqlQueys.cs",
@@ -203,27 +163,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "HelperConnection.cs",
-              "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\HelperConnection.cs",
-              "RelativeDocumentMoniker": "SGE.ControlEquipos\\helper\\HelperConnection.cs",
-              "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\HelperConnection.cs",
-              "RelativeToolTip": "SGE.ControlEquipos\\helper\\HelperConnection.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAQwDkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-03-09T17:43:33.232Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 2,
               "Title": "GeneralData.cs",
               "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\DataAcces\\GeneralData.cs",
               "RelativeDocumentMoniker": "SGE.ControlEquipos\\DataAcces\\GeneralData.cs",
               "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\DataAcces\\GeneralData.cs",
               "RelativeToolTip": "SGE.ControlEquipos\\DataAcces\\GeneralData.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcBAAApAAAA",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAjwMoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2023-03-22T20:51:00.471Z"
+              "WhenOpened": "2023-03-22T20:51:00.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmMatePVT.cs",
+              "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMatePVT.cs",
+              "RelativeDocumentMoniker": "SGE.ControlEquipos\\FrmMatePVT.cs",
+              "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMatePVT.cs",
+              "RelativeToolTip": "SGE.ControlEquipos\\FrmMatePVT.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwD8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T23:30:43.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FrmMatePVT.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMatePVT.cs",
+              "RelativeDocumentMoniker": "SGE.ControlEquipos\\FrmMatePVT.cs",
+              "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\FrmMatePVT.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SGE.ControlEquipos\\FrmMatePVT.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T23:30:53.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HelperConnection.cs",
+              "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\HelperConnection.cs",
+              "RelativeDocumentMoniker": "SGE.ControlEquipos\\helper\\HelperConnection.cs",
+              "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\HelperConnection.cs",
+              "RelativeToolTip": "SGE.ControlEquipos\\helper\\HelperConnection.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wDkAAAChAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-03-09T17:43:33.232Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Constantes.cs",
+              "DocumentMoniker": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\Constantes.cs",
+              "RelativeDocumentMoniker": "SGE.ControlEquipos\\helper\\Constantes.cs",
+              "ToolTip": "D:\\Control-actualizador\\ControlEquipos\\SGE.ControlEquipos\\SGE.ControlEquipos\\helper\\Constantes.cs",
+              "RelativeToolTip": "SGE.ControlEquipos\\helper\\Constantes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-04-29T16:19:02.469Z"
             },
             {
               "$type": "Document",
@@ -247,8 +243,7 @@
               "RelativeToolTip": "SGE.ControlEquipos\\FrmMatePVT.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-17T23:30:28.465Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-17T23:30:28.465Z"
             }
           ]
         }
