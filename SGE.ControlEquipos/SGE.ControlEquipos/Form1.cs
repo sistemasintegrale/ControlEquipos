@@ -46,8 +46,8 @@ namespace SGE.ControlEquipos
         private void btnJabsa_Click(object sender, EventArgs e) => Reload(Constantes.ConnJabsa, btnJabsa);
         private void btnjudithlab_Click(object sender, EventArgs e) => Reload(Constantes.ConnJudithLab, btnjudithlab);
         private void btnmjcgoup_Click(object sender, EventArgs e) => Reload(Constantes.ConnMjcGroup, btnmjcgoup);
- 
-
+        private void btnIglesiaSJ_Click(object sender, EventArgs e) => Reload(Constantes.ConnIglesiaSJ, btnIglesiaSJ);
+  
 
         async void cargar()
         {
@@ -222,6 +222,6 @@ namespace SGE.ControlEquipos
             }
         }
 
-      
+     
     }
 }

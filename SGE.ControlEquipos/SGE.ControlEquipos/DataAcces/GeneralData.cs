@@ -188,11 +188,13 @@ namespace SGE.ControlEquipos.DataAcces
                
                 using (SqlConnection cn = new SqlConnection(HelperConnection.conexion()))
                 {
-                    string query = $"INSERT INTO SGE_CONTROL_VERSIONES (cvr_vversion,cvr_vurl) VALUES ('{obj.cvr_vversion}','{obj.cvr_vurl}')";
+                    string query = "INSERT INTO SGE_CONTROL_VERSIONES (cvr_vversion, cvr_vurl) VALUES (@version, @url)";
                     SqlCommand cmd = new SqlCommand(query, cn);
-                    cmd.CommandType = CommandType.Text; 
+                    cmd.Parameters.AddWithValue("@version", obj.cvr_vversion);
+                    cmd.Parameters.AddWithValue("@url", obj.cvr_vurl);
+                    cmd.CommandType = CommandType.Text;
                     cn.Open();
-                    cmd.ExecuteReader();
+                    cmd.ExecuteNonQuery();
                 }
 
             }

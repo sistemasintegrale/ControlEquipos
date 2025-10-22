@@ -17,6 +17,7 @@
         public static int ConnJabsa = 12;
         public static int ConnJudithLab = 13;
         public static int ConnMjcGroup =14;
+        public static int ConnIglesiaSJ = 15;
 
 
         //

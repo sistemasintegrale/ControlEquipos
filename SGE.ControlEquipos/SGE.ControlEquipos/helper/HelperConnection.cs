@@ -35,7 +35,7 @@ namespace SGE.ControlEquipos.helper
                 case 7: //CALZADOS JAGUAR
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=jaguar_com_pe_CJ;Persist Security Info=True;User ID=jaguar_com_pe_CJ;Password=eY-68j#0D;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
-                case 8: //CALZADOS JAGUAR
+                case 8: //PRADOS VERDES
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=parquesdelparaiso_pe_PV;Persist Security Info=True;User ID=parquesdelparaiso_pe_de;Password=rogola2012;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 9: //TELAS LIMA
@@ -54,8 +54,11 @@ namespace SGE.ControlEquipos.helper
                 case 13: //JUTIDH LAB
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_judith_lab;Persist Security Info=True;User ID=telaslima_com_judith_lab;Password=X3V!~OB@za;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
-                case 14: //JUTIDH LAB
+                case 14: //mjsgroup
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=mjcgroupsac_com_mjc;Persist Security Info=True;User ID=mjcgroupsac_com_mjc;Password=4PeI=%,a;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    break;
+                case 15: //iglesia sjl
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=alianzasjl_org_alianzasjl;Persist Security Info=True;User ID=alianzasjl_org_alianzasjl;Password=(6FY~wgi;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
             }
             return strConexion;
@@ -101,6 +104,9 @@ namespace SGE.ControlEquipos.helper
                     break;
                 case 12:// JABSA
                     strConexion = "Jabsa";
+                    break;
+                case 13:// IGLESIA
+                    strConexion = "Iglesia-Sjl";
                     break;
             }
             return strConexion;
