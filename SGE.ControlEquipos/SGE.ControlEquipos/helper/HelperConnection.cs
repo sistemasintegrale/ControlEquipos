@@ -52,7 +52,7 @@ namespace SGE.ControlEquipos.helper
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=jabsa_pe_jb;Persist Security Info=True;User ID=jabsa_pe_jb;Password=zgWPRSePOHb9;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 13: //JUTIDH LAB
-                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=telaslima_com_judith_lab;Persist Security Info=True;User ID=telaslima_com_judith_lab;Password=X3V!~OB@za;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
+                    strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=judithdermocosmeticaprofesional_com_jl;Persist Security Info=True;User ID=judithdermocosmeticaprofesional_com_jl;Password=0*3G]c9*jrK;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
                     break;
                 case 14: //mjsgroup
                     strConexion = "Data Source=tcp:95.217.194.247,1433;Initial Catalog=mjcgroupsac_com_mjc;Persist Security Info=True;User ID=mjcgroupsac_com_mjc;Password=4PeI=%,a;MultipleActiveResultSets = True; TrustServerCertificate = False; Encrypt = False";
